@@ -15,6 +15,7 @@ def get_stock_info(ticker):
     annual_volatility = volatility * np.sqrt(252)
     info['Volatility'] = volatility
     info['Annual Volatility'] = annual_volatility
+    info['ISIN'] = ticker
     return info
 
 def get_stock_list():
