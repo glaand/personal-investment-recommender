@@ -37,6 +37,6 @@ if __name__ == "__main__":
 
     # convert list of dictionaries to dataframe
     stock_info_df = pd.DataFrame(stock_info_list)
-    stock_info_df.to_csv(path + "/../data/stock_info.csv", index=False)
-    print("Stocks info is saved to data/stock_info.csv")
+    stock_info_df.to_csv(path + "/../data/stock_info.tsv", index=False, sep='\t')
+    print("Stocks info is saved to data/stock_info.tsv")
 
