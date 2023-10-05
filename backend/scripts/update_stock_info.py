@@ -8,11 +8,12 @@ path = os.path.dirname(os.path.abspath(__file__))
 def get_stock_info(ticker):
     stock = yf.Ticker(ticker)
     info = stock.info
-    historical_data = stock.history(period="1y")
-    historical_data['Daily Return'] = historical_data['Close'].pct_change()
-    historical_data['Daily Return'].dropna(inplace=True)
-    volatility = np.std(historical_data['Daily Return'])
+    yearly_historical_data = stock.history(period="1y")
+    yearly_historical_data['Daily Return'] = yearly_historical_data['Close'].pct_change()
+    yearly_historical_data['Daily Return'].dropna(inplace=True)
+    volatility = np.std(yearly_historical_data['Daily Return'])
     annual_volatility = volatility * np.sqrt(252)
+    # todo: semester volatility 
     info['Volatility'] = volatility
     info['Annual Volatility'] = annual_volatility
     info['ISIN'] = ticker
