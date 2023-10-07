@@ -41,10 +41,10 @@
       </v-row>
       <v-row align="center" justify="center">
           <v-col cols="auto">
-            <v-btn color="primary" text prepend-icon="mdi-face-agent">Mit Berater absprechen</v-btn>
+            <v-btn color="primary" prepend-icon="mdi-face-agent">Mit Berater absprechen</v-btn>
           </v-col>
           <v-col cols="auto">
-            <v-btn color="primary" text variant="outlined" prepend-icon="mdi-close">Schlechte empfehlungen...</v-btn>
+            <v-btn color="primary" variant="outlined" prepend-icon="mdi-close">Schlechte empfehlungen...</v-btn>
           </v-col>
       </v-row>
     </v-responsive>
