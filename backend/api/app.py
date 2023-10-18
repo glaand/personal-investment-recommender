@@ -23,6 +23,11 @@ def get_recommendation(investor_id):
         x["name"] = row["longName"]
         x["description"] = row["longBusinessSummary"]
         return x
+    
+    # @todo, calculate something similar with cron job
+    portfolio = lib.get_investor(investor_id)["portfolio"]
+    data["something_similar"] = lib.calculate_something_similar(portfolio)
+
     data["something_similar"] = list(map(mapper, data["something_similar"]))
     data["something_essential"] = list(map(mapper, data["something_essential"]))
     data["something_special"] = list(map(mapper, data["something_special"]))
