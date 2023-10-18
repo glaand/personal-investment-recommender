@@ -1,0 +1,71 @@
+{
+    "id": 1,
+    "name": "John Doe",
+    "investor_type": "Swiss-Bias", 
+    "portfolio": [
+        {
+            "name": "ABB",
+            "isin": "CH0012221716",
+            "quantity": 10,
+            "price": 100
+        },
+        {
+            "name": "Ralph Lauren",
+            "isin": "US7512121010",
+            "quantity": 15,
+            "price": 200
+        }
+    ],
+    "bad_stocks": [
+        {
+            "name": "ABB",
+            "isin": "CH0012221716",
+            "quantity": 10,
+            "price": 100
+        },
+        {
+            "name": "Ralph Lauren",
+            "isin": "US7512121010",
+            "quantity": 15,
+            "price": 200
+        }
+    ],
+    "market_allocation": {
+        "USA": 0.5,
+        "Europe": 0.0,
+        "Switzerland": 0.5,
+        "Asia & EM": 0.0
+    },
+    "sector_allocation": {
+        "Financial Services": 0.01,
+        "Technology": 0.01,
+        "Industrials": 0.01,
+        "Energy": 0.01,
+        "Healthcare": 0.01,
+        "Consumer Defensive": 0.01,
+        "Consumer Cyclical": 0.01,
+        "Basic Materials": 0.01,
+        "Real Estate": 0.01,
+        "Communication Services": 0.01,
+        "Utilities": 0.01
+    },
+    "market_allocation_difference": {
+        "USA": 0.35,
+        "Europe": -0.1,
+        "Switzerland": -0.2,
+        "Asia & EM": -0.05
+    },
+    "sector_allocation_difference": {
+        "Financial Services": -0.17,
+        "Technology": -0.07,
+        "Industrials": -0.14,
+        "Energy": -0.01,
+        "Healthcare": -0.24,
+        "Consumer Defensive": -0.14,
+        "Consumer Cyclical": -0.07,
+        "Basic Materials": -0.04,
+        "Real Estate": 0.01,
+        "Communication Services": -0.01,
+        "Utilities": -0.01
+    }
+}

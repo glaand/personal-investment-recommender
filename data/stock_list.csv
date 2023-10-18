@@ -1,6 +1,131 @@
-Name,ISIN
-Nestle Schweiz,CH0038863350
-ABB Ltd,CH0012221716
-Adecco Group AG,CH0012138605
-Geberit AG,CH0030170408
-Zurich Insurance Group AG,CH0011075394
+Name,ISIN,Region,Sector,CIO_Rating
+ABB,CH0012221716,Switzerland,Industrials,most_preferred
+Alcon,CH0432492467,Switzerland,Healthcare,most_preferred
+Geberit,CH0030170408,Switzerland,Industrials,most_preferred
+Givaudan,CH0010645932,Switzerland,Basic Materials,least_preferred
+Holcim,CH0012214059,Switzerland,Basic Materials,most_preferred
+Kühne + Nagel,CH0025238863,Switzerland,Industrials,least_preferred
+Logitech,CH0025751329,Switzerland,Technology,least_preferred
+Lonza,CH0013841017,Switzerland,Healthcare,most_preferred
+Nestlé,CH0038863350,Switzerland,Consumer Defensive,most_preferred
+Novartis,CH0012005267,Switzerland,Healthcare,most_preferred
+Partners Group,CH0024608827,Switzerland,Financial Services,most_preferred
+Richemont,CH0210483332,Switzerland,Consumer Cyclical,most_preferred
+Roche,CH0012032048,Switzerland,Healthcare,most_preferred
+Sika,CH0418792922,Switzerland,Basic Materials,most_preferred
+Sonova,CH0012549785,Switzerland,Healthcare,most_preferred
+Swiss Life,CH0014852781,Switzerland,Financial Services,most_preferred
+Swiss Re,CH0126881561,Switzerland,Financial Services,least_preferred
+Swisscom,CH0008742519,Switzerland,Communication Services,most_preferred
+UBS,CH0244767585,Switzerland,Financial Services,most_preferred
+Zurich Insurance,CH0011075394,Switzerland,Financial Services,most_preferred
+Barry Callebaut,CH0009002962,Switzerland,Consumer Defensive,most_preferred
+Clariant,CH0012142631,Switzerland,Basic Materials,most_preferred
+Flughafen Zuerich,CH0319416936,Switzerland,Industrials,most_preferred
+Galenica,CH0360674466,Switzerland,Healthcare,most_preferred
+Georg Fischer,CH1169151003,Switzerland,Industrials,most_preferred
+Julius Baer,CH0102484968,Switzerland,Financial Services,most_preferred
+Lindt & Spruengli,CH0010570759,Switzerland,Consumer Defensive,most_preferred
+PSP Swiss Property,CH0018294154,Switzerland,Real Estate,most_preferred
+Schindler,CH0024638196,Switzerland,Industrials,most_preferred
+SIG Group,CH0435377954,Switzerland,Consumer Cyclical,most_preferred
+VAT,CH0311864901,Switzerland,Industrials,most_preferred
+Adidas,DE000A1EWWW0,Europe,Consumer Cyclical,most_preferred
+Air Liquide,FR0000120073,Europe,Basic Materials,most_preferred
+Allianz,DE0008404005,Europe,Financial Services,most_preferred
+ASML,NL0010273215,Europe,Technology,most_preferred
+AXA,FR0000120628,Europe,Financial Services,most_preferred
+Banco Santander,ES0113900J37,Europe,Financial Services,most_preferred
+Bayer,DE000BAY0017,Europe,Healthcare,most_preferred
+BNP Paribas,FR0000131104,Europe,Financial Services,most_preferred
+Deutsche Post,DE0005552004,Europe,Industrials,most_preferred
+Deutsche Telekom,DE0005557508,Europe,Communication Services,most_preferred
+Enel,IT0003128367,Europe,Utilities,most_preferred
+Eni,IT0003132476,Europe,Energy,most_preferred
+EssilorLuxottica,FR0000121667,Europe,Healthcare,most_preferred
+Ferrari,NL0011585146,Europe,Consumer Cyclical,most_preferred
+Hermes,FR0000052292,Europe,Consumer Cyclical,most_preferred
+Iberdrola,ES0144580Y14,Europe,Utilities,most_preferred
+Inditex,ES0148396007,Europe,Consumer Cyclical,most_preferred
+Infineon,DE0006231004,Europe,Technology,most_preferred
+ING,NL0011821202,Europe,Financial Services,most_preferred
+Kering,FR0000121485,Europe,Consumer Cyclical,most_preferred
+Ahold Delhaize,NL0011794037,Europe,Consumer Defensive,most_preferred
+L'Oréal,FR0000120321,Europe,Consumer Defensive,most_preferred
+LVMH,FR0000121014,Europe,Consumer Cyclical,most_preferred
+Mercedes Benz,DE0007100000,Europe,Consumer Cyclical,most_preferred
+Prosus,NL0013654783,Europe,Communication Services,most_preferred
+SAP,DE0007164600,Europe,Technology,most_preferred
+Schneider Electric,FR0000121972,Europe,Industrials,most_preferred
+Siemens,DE0007236101,Europe,Industrials,most_preferred
+Stellantis,NL00150001Q9,Europe,Consumer Cyclical,most_preferred
+TotalEnergies,FR0000120271,Europe,Energy,most_preferred
+Unicredit,IT0005239360,Europe,Financial Services,most_preferred
+Vinci,FR0000125486,Europe,Industrials,most_preferred
+Porsche,DE000PAG9113,Europe,Consumer Cyclical,most_preferred
+Fresenius,DE0005785604,Europe,Healthcare,most_preferred
+Heidelberg Materials,DE0006047004,Europe,Basic Materials,most_preferred
+Merck,DE0006599905,Europe,Healthcare,most_preferred
+AstraZeneca,GB0009895292,Europe,Healthcare,most_preferred
+Barcleys,GB0031348658,Europe,Financial Services,most_preferred
+BP,GB0007980591,Europe,Energy,most_preferred
+Easyjet,GB00B7KR2P84,Europe,Industrials,most_preferred
+Glencore,JE00B4T3BW64,Europe,Basic Materials,most_preferred
+Reckitt Benckiser,GB00B24CGK77,Europe,Consumer Defensive,most_preferred
+Tesco,GB00BLGZ9862,Europe,Consumer Defensive,most_preferred
+Kering,FR0000121485,Europe,Consumer Cyclical,most_preferred
+Michelin,FR001400AJ45,Europe,Empty,most_preferred
+Norsk Hydro,NO0005052605,Europe,Basic Materials,most_preferred
+Microsoft,US5949181045,USA,Technology,most_preferred
+Nike,US6541061031,USA,Consumer Cyclical,most_preferred
+Visa,US92826C8394,USA,Financial Services,most_preferred
+Walmart,US9311421039,USA,Consumer Defensive,most_preferred
+Walt Disney,US2546871060,USA,Communication Services,most_preferred
+Ralph Lauren,US7512121010,USA,Consumer Cyclical,most_preferred
+Starbucks,US8552441094,USA,Consumer Cyclical,most_preferred
+AbbVie,US00287Y1091,USA,Healthcare,most_preferred
+ThermoFisher Scientific,US8835561023,USA,Healthcare,most_preferred
+Procter and Gamble,US7427181091,USA,Consumer Defensive,most_preferred
+Accenture,IE00B4BNMY34,USA,Technology,most_preferred
+Air Products & Chemicals,US0091581068,USA,Basic Materials,most_preferred
+American Tower,US03027X1000,USA,Real Estate,most_preferred
+Emerson Electric,US2910111044,USA,Industrials,most_preferred
+Exxon Mobil,US30231G1022,USA,Energy,most_preferred
+Merck & Co,US58933Y1055,USA,Healthcare,most_preferred
+Yum Brands,US9884981013,USA,Consumer Cyclical,most_preferred
+Coca-Cola Europacific,GB00BDCPN049,USA,Consumer Defensive,most_preferred
+Boston Scientific,US1011371077,USA,Healthcare,most_preferred
+Advanced Micro Devices,US0079031078,USA,Technology,most_preferred
+Alphabet,US02079K3059,USA,Communication Services,most_preferred
+Amazon.Com,US0231351067,USA,Consumer Cyclical,most_preferred
+Apple,US0378331005,USA,Technology,most_preferred
+Applied Materials,US0382221051,USA,Technology,most_preferred
+Biogen,US09062X1037,USA,Healthcare,most_preferred
+Cisco Systems,US17275R1023,USA,Technology,most_preferred
+Intel,US4581401001,USA,Technology,most_preferred
+Marvell Tech,US5738741041,USA,Technology,most_preferred
+Micron Technologies,US5951121038,USA,Technology,most_preferred
+Microsoft,US5949181045,USA,Technology,most_preferred
+Netflix,US64110L1061,USA,Communication Services,most_preferred
+NVIDIA,US67066G1040,USA,Technology,most_preferred
+Oracle,US68389X1054,USA,Technology,most_preferred
+UBS ETF Emerging Markets,LU0480132876,Asia & EM,Empty,most_preferred
+UBS ETF MSCI Japan,LU1169822779,Asia & EM,Empty,most_preferred
+Fanuc,JP3802400006,Asia & EM,Industrials,most_preferred
+Central Japan Railway,JP3566800003,Asia & EM,Industrials,most_preferred
+Toyota Motor,JP3633400001,Asia & EM,Consumer Cyclical,most_preferred
+Softbank,JP3732000009,Asia & EM,Communication Services,most_preferred
+Sumitomo Mitsui FiEmptycial,JP3890350006,Asia & EM,Financial Services,most_preferred
+Japan Airlines,JP3705200008,Asia & EM,Industrials,most_preferred
+Mitsui Fudosan,JP3893200000,Asia & EM,Real Estate,most_preferred
+Sony,JP3435000009,Asia & EM,Technology,most_preferred
+TDK Corporation,JP3538800008,Asia & EM,Technology,most_preferred
+Toray,JP3621000003,Asia & EM,Consumer Cyclical,most_preferred
+AIA,HK0000069689,Asia & EM,Financial Services,most_preferred
+Alibaba,KYG017191142,Asia & EM,Consumer Cyclical,most_preferred
+HSBC,GB0005405286,Asia & EM,Financial Services,most_preferred
+NetEase,KYG6427A1022,Asia & EM,Communication Services,most_preferred
+Tencent,KYG875721634,Asia & EM,Communication Services,most_preferred
+Baidu,KYG070341048,Asia & EM,Communication Services,most_preferred
+Samsung,KR7005930003,Asia & EM,Technology,most_preferred
+Taiwan Semiconductor,TW0002330008,Asia & EM,Technology,most_preferred
