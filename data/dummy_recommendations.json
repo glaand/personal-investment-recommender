@@ -1,0 +1,35 @@
+[
+    {
+        "investor_id": "000001",
+        "something_similar": [
+            {
+                "name": "ABB",
+                "isin": "CH0012221716"
+            },
+            {
+                "name": "Ralph Lauren",
+                "isin": "US7512121010"
+            }
+        ],
+        "something_essential": [
+            {
+                "name": "ABB",
+                "isin": "CH0012221716"
+            },
+            {
+                "name": "Ralph Lauren",
+                "isin": "US7512121010"
+            }
+        ],
+        "something_special": [
+            {
+                "name": "ABB",
+                "isin": "CH0012221716"
+            },
+            {
+                "name": "Ralph Lauren",
+                "isin": "US7512121010"
+            }
+        ]
+    }
+]
