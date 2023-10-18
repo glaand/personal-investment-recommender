@@ -35,8 +35,17 @@ if __name__ == "__main__":
     for index, row in stock_list.iterrows():
         ticker = row["ISIN"]
         stock_info = get_stock_info(ticker)
+
+        try:
+            stock_list.loc[index, "Sector"] = stock_info["sector"]
+        except:
+            pass
+        
         stock_info_list.append(stock_info)
         print("Stock info for {} is done.".format(ticker))
+    # save stock list
+    stock_list_path = os.path.join(path, "..", "..", "data", "stock_list.csv")
+    stock_list.to_csv(stock_list_path, index=False)
 
     # convert list of dictionaries to dataframe
     stock_info_df = pd.DataFrame(stock_info_list)
