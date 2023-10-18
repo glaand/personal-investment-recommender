@@ -1,33 +1,23 @@
 {
-    "id": 1,
+    "id": "000001",
     "name": "John Doe",
     "investor_type": "Swiss-Bias", 
     "portfolio": [
         {
-            "name": "ABB",
             "isin": "CH0012221716",
-            "quantity": 10,
-            "price": 100
+            "quantity": 10
         },
         {
-            "name": "Ralph Lauren",
             "isin": "US7512121010",
-            "quantity": 15,
-            "price": 200
+            "quantity": 15
         }
     ],
     "bad_stocks": [
         {
-            "name": "ABB",
-            "isin": "CH0012221716",
-            "quantity": 10,
-            "price": 100
+            "isin": "CH0012221716"
         },
         {
-            "name": "Ralph Lauren",
-            "isin": "US7512121010",
-            "quantity": 15,
-            "price": 200
+            "isin": "US7512121010"
         }
     ],
     "market_allocation": {
