@@ -1,6 +1,6 @@
 update-stock-info:
 	@echo "Updating stock info..."
-	@python3 backend/scripts/update_stock_info.py
+	@python backend/scripts/update_stock_info.py
 
 run-backend:
 	@echo "Running backend..."
