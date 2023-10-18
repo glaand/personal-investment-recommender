@@ -20,7 +20,7 @@ def get_stock_info(ticker):
     return info
 
 def get_stock_list():
-    stock_list_path = os.path.join(path, "..", "data", "stock_list.csv")
+    stock_list_path = os.path.join(path, "..", "..", "data", "stock_list.csv")
     stock_list = pd.read_csv(stock_list_path)
     return stock_list
 
@@ -40,7 +40,7 @@ if __name__ == "__main__":
 
     # convert list of dictionaries to dataframe
     stock_info_df = pd.DataFrame(stock_info_list)
-    stock_info_path = os.path.join(path, "..", "data", "stock_info.tsv")
+    stock_info_path = os.path.join(path, "..", "..", "data", "stock_info.tsv")
     stock_info_df.to_csv(stock_info_path, index=False, sep='\t')
     print("Stocks info is saved to data/stock_info.tsv")
 
