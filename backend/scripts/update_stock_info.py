@@ -9,14 +9,14 @@ def get_stock_info(ticker):
     stock = yf.Ticker(ticker)
     info = stock.info
     yearly_historical_data = stock.history(period="1y")
-    yearly_historical_data['Daily Return'] = yearly_historical_data['Close'].pct_change()
-    yearly_historical_data['Daily Return'].dropna(inplace=True)
-    volatility = np.std(yearly_historical_data['Daily Return'])
+    yearly_historical_data['daily return'] = yearly_historical_data['Close'].pct_change()
+    yearly_historical_data['daily return'].dropna(inplace=True)
+    volatility = np.std(yearly_historical_data['daily return'])
     annual_volatility = volatility * np.sqrt(252)
     # todo: semester volatility 
-    info['Volatility'] = volatility
-    info['Annual Volatility'] = annual_volatility
-    info['ISIN'] = ticker
+    info['volatility'] = volatility
+    info['annual volatility'] = annual_volatility
+    info['isin'] = ticker
     return info
 
 def get_stock_list():
@@ -33,11 +33,11 @@ if __name__ == "__main__":
     stock_info_list = []
     # loop through each stock in the dataframe
     for index, row in stock_list.iterrows():
-        ticker = row["ISIN"]
+        ticker = row["isin"]
         stock_info = get_stock_info(ticker)
 
         try:
-            stock_list.loc[index, "Sector"] = stock_info["sector"]
+            stock_list.loc[index, "sector"] = stock_info["sector"]
         except:
             pass
         

@@ -1,4 +1,4 @@
-Name,ISIN,Region,Sector,CIO_Rating
+name,isin,region,sector,cio_rating
 ABB,CH0012221716,Switzerland,Industrials,most_preferred
 Alcon,CH0432492467,Switzerland,Healthcare,most_preferred
 Geberit,CH0030170408,Switzerland,Industrials,most_preferred
