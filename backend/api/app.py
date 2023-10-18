@@ -1,9 +1,9 @@
 from flask import Flask, jsonify, url_for, make_response
-import pandas as pd
-import json
-import os
+from flask_cors import CORS
+import backend.api.lib as lib
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/")
 def home():
@@ -11,39 +11,24 @@ def home():
 
 @app.route("/investors/<investor_id>")
 def get_investor(investor_id):
-    file_path = [
-        os.path.dirname(__file__),
-        "..",
-        "..",
-        "data",
-        "dummy_portfolio.json"
-    ]
-    data = json.load(open(os.path.join(*file_path)))
+    data = lib.get_investor(investor_id)
     return jsonify(data)
 
 @app.route("/recommendations/<investor_id>")
 def get_recommendation(investor_id):
-    file_path = [
-        os.path.dirname(__file__),
-        "..",
-        "..",
-        "data",
-        "dummy_recommendations.json"
-    ]
-    data = json.load(open(os.path.join(*file_path)))
+    data = lib.get_recommendation(investor_id)
+    stocks_data = lib.get_stocks()
+    def mapper(x):
+        row = stocks_data[stocks_data["isin"] == x["isin"]].iloc[0]
+        x["name"] = row["longName"]
+        x["description"] = row["longBusinessSummary"]
+        return x
+    data["something_similar"] = list(map(mapper, data["something_similar"]))
+    data["something_essential"] = list(map(mapper, data["something_essential"]))
+    data["something_special"] = list(map(mapper, data["something_special"]))
     return jsonify(data)
 
 @app.route("/stocks/")
 def get_stocks():
-    file_path = [
-        os.path.dirname(__file__),
-        "..",
-        "..",
-        "data",
-        "stock_info.tsv"
-    ]
-    data = pd.read_csv(os.path.join(*file_path), sep="\t")
-    json_data = data.to_json(orient="records")
-    response = make_response(json_data)
-    response.headers['Content-Type'] = 'application/json'
-    return response
+    data = lib.get_stocks()
+    return jsonify(data.to_dict(orient="records"))

@@ -6,11 +6,11 @@
           <v-expansion-panels variant="accordion">
             <v-expansion-panel-title hide-actions color="orange">Something Similar</v-expansion-panel-title>
             <v-expansion-panel
-              v-for="i in 3"
+              v-for="(recommendation, i) in recommendations.something_similar"
               :key="i"
               color="orange-lighten-3"
-              title="Nvidia"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              :title="recommendation.name"
+              :text="recommendation.description"
             ></v-expansion-panel>
           </v-expansion-panels>
         </v-col>
@@ -18,11 +18,11 @@
           <v-expansion-panels variant="accordion">
             <v-expansion-panel-title hide-actions color="blue">Something Essential</v-expansion-panel-title>
             <v-expansion-panel
-              v-for="i in 3"
+              v-for="(recommendation, i) in recommendations.something_essential"
               :key="i"
               color="blue-lighten-3"
-              title="Nestlé"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              :title="recommendation.name"
+              :text="recommendation.description"
             ></v-expansion-panel>
           </v-expansion-panels>
         </v-col>
@@ -30,11 +30,11 @@
           <v-expansion-panels variant="accordion">
             <v-expansion-panel-title hide-actions color="green">Something Special</v-expansion-panel-title>
             <v-expansion-panel
-              v-for="i in 3"
+              v-for="(recommendation, i) in recommendations.something_special"
               :key="i"
               color="green-lighten-3"
-              title="Flughafen Zürich"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              :title="recommendation.name"
+              :text="recommendation.description"
             ></v-expansion-panel>
           </v-expansion-panels>
         </v-col>
@@ -52,5 +52,12 @@
 </template>
 
 <script lang="ts" setup>
-  //
+  import { ref, onMounted } from 'vue';
+  const recommendations = ref([]);
+  const getRecommendations = async () => {
+    const response = await fetch('http://10.96.66.99:8005/recommendations/000001');
+    const data = await response.json();
+    recommendations.value = data;
+  };
+  onMounted(getRecommendations);
 </script>
