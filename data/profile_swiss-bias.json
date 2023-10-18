@@ -1,0 +1,22 @@
+{
+    "name": "Swiss-Bias Investor",
+    "markets": {
+        "USA": 0.15,
+        "Europe": 0.10,
+        "Switzerland": 0.70,
+        "Asia & EM": 0.05
+    },
+    "sectors": {
+        "Financial Services": 0.18,
+        "Technology": 0.08,
+        "Industrials": 0.15,
+        "Energy": 0.02,
+        "Healthcare": 0.25,
+        "Consumer Defensive": 0.15,
+        "Consumer Cyclical": 0.08,
+        "Basic Materials": 0.05,
+        "Real Estate": 0.00,
+        "Communication Services": 0.02,
+        "Utilities": 0.02
+    }
+}

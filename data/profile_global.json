@@ -1,0 +1,22 @@
+{
+    "name": "Global Investor",
+    "markets": {
+        "USA": 0.45,
+        "Europe": 0.30,
+        "Switzerland": 0.15,
+        "Asia & EM": 0.10
+    },
+    "sectors": {
+        "Financial Services": 0.15,
+        "Technology": 0.20,
+        "Industrials": 0.10,
+        "Energy": 0.05,
+        "Healthcare": 0.12,
+        "Consumer Defensive": 0.15,
+        "Consumer Cyclical": 0.08,
+        "Basic Materials": 0.06,
+        "Real Estate": 0.02,
+        "Communication Services": 0.05,
+        "Utilities": 0.02
+    }
+}

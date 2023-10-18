@@ -1,0 +1,22 @@
+{
+    "name": "Swiss-Global Investor",
+    "markets": {
+        "USA": 0.35,
+        "Europe": 0.20,
+        "Switzerland": 0.40,
+        "Asia & EM": 0.05
+    },
+    "sectors": {
+        "Financial Services": 0.15,
+        "Technology": 0.15,
+        "Industrials": 0.10,
+        "Energy": 0.05,
+        "Healthcare": 0.20,
+        "Consumer Defensive": 0.15,
+        "Consumer Cyclical": 0.08,
+        "Basic Materials": 0.05,
+        "Real Estate": 0.00,
+        "Communication Services": 0.05,
+        "Utilities": 0.02
+    }
+}
