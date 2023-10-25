@@ -4,11 +4,37 @@
     "investor_type": "Swiss-Bias", 
     "portfolio": [
         {
+            "name": "ABB",
             "isin": "CH0012221716",
             "quantity": 10
         },
         {
+            "name": "Ralp Lauren",
             "isin": "US7512121010",
+            "quantity": 15
+        }
+    ],
+    "banker": [
+        {
+            "name": "UBS",
+            "isin": "CH0244767585",
+            "quantity": 10
+        },
+        {
+            "name": "Zurich",
+            "isin": "CH0011075394",
+            "quantity": 15
+        }
+    ],
+    "tech_guy": [
+        {
+            "name": "Apple",
+            "isin": "US0378331005",
+            "quantity": 10
+        },
+        {
+            "name": "Microsoft",
+            "isin": "US5949181045",
             "quantity": 15
         }
     ],

@@ -58,14 +58,27 @@ def calculate_something_similar(portfolio):
     for stock in portfolio:
         # get top 5 similar stocks, add only isin
         isin = stock['isin']
-        similar_stocks.append(cosine_sim_df[isin].sort_values(ascending=False))
+        selection = cosine_sim_df[isin]
+                     
+        # check if selection is Series or DataFrame
+        if isinstance(selection, pd.DataFrame):
+            # select first column
+            selection = selection.iloc[:, 0]
+
+        selection = selection.sort_values(ascending=False)
+
+        # drop stocks with similarity of 0.0
+        selection = selection[selection > 0.0]
+        
+        similar_stocks.append(selection)
 
     # concat with duplicates
     similar_stocks = pd.concat(similar_stocks)
 
     # remove duplicates
-    similar_stocks = similar_stocks[~similar_stocks.index.duplicated(keep='first')]
     similar_stocks = similar_stocks.sort_values(ascending=False)
+    similar_stocks = similar_stocks[~similar_stocks.index.duplicated(keep='first')]
+
     similar_stocks = similar_stocks[:3]
     similar_stocks = similar_stocks.reset_index()
     similar_stocks = similar_stocks.to_dict(orient='records')
