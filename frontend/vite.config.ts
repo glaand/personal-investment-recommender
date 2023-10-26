@@ -7,7 +7,7 @@ import ViteFonts from 'unplugin-fonts/vite'
 import { defineConfig, loadEnv } from 'vite'
 import { fileURLToPath, URL } from 'node:url'
 
-const env = loadEnv('', process.cwd());
+const env = loadEnv(process.env.NODE_ENV, process.cwd());
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -32,7 +32,7 @@ export default defineConfig({
     }),
   ],
   define: {
-    'process.env.BACKEND_URL': env.BACKEND_URL
+    'process.env.VITE_BACKEND_URL': JSON.stringify(env.VITE_BACKEND_URL)
   },
   resolve: {
     alias: {

@@ -55,7 +55,7 @@
   import { ref, onMounted } from 'vue';
   const recommendations = ref([]);
   const getRecommendations = async () => {
-    let uri = process.env.BACKEND_URL;
+    let uri = process.env.VITE_BACKEND_URL;
     if (uri === undefined) {
       uri = 'http://localhost:5000';
     }
