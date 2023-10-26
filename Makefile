@@ -5,3 +5,8 @@ update-stock-info:
 run-backend:
 	@echo "Running backend..."
 	cd backend/api/ && flask run --host 0.0.0.0 --port 8005 --reload
+
+run-frontend:
+	@echo "Running frontend..."
+	cd frontend && yarn dev --host
+
