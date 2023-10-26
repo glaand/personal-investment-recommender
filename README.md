@@ -9,6 +9,16 @@ To update the stock infos, please run the following command:
 make update-stock-info
 ```
 
+### Run backend
+```
+make run-backend
+```
+
+### Run frontend
+```
+make run-frontend
+```
+
 ### Install python requirements
 To install the python requirements, please run the following command:
 ```
