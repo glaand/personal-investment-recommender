@@ -55,7 +55,11 @@
   import { ref, onMounted } from 'vue';
   const recommendations = ref([]);
   const getRecommendations = async () => {
-    const response = await fetch('http://10.96.66.99:8005/recommendations/000001');
+    let uri = process.env.BACKEND_URL;
+    if (uri === undefined) {
+      uri = 'http://localhost:5000';
+    }
+    const response = await fetch(`${uri}/recommendations/000001`);
     const data = await response.json();
     recommendations.value = data;
   };
