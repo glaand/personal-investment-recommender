@@ -109,8 +109,8 @@ Microsoft,US5949181045,USA,Technology,most_preferred
 Netflix,US64110L1061,USA,Communication Services,most_preferred
 NVIDIA,US67066G1040,USA,Technology,most_preferred
 Oracle,US68389X1054,USA,Technology,most_preferred
-UBS ETF Emerging Markets,LU0480132876,Asia & EM,Empty,most_preferred
-UBS ETF MSCI Japan,LU1169822779,Asia & EM,Empty,most_preferred
+SPDR MSCI EM Asia ETF,IE00B466KX20,Asia & EM,Mixed,most_preferred
+UBS ETF MSCI Japan,LU1169822779,Asia & EM,Mixed,most_preferred
 Fanuc,JP3802400006,Asia & EM,Industrials,most_preferred
 Central Japan Railway,JP3566800003,Asia & EM,Industrials,most_preferred
 Toyota Motor,JP3633400001,Asia & EM,Consumer Cyclical,most_preferred
