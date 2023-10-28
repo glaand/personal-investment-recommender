@@ -1,7 +1,7 @@
 {
     "name": "Global Investor",
     "markets": {
-        "USA": 0.45,
+        "United States": 0.45,
         "Europe": 0.30,
         "Switzerland": 0.15,
         "Asia & EM": 0.10

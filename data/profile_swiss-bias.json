@@ -1,7 +1,7 @@
 {
     "name": "Swiss-Bias Investor",
     "markets": {
-        "USA": 0.15,
+        "United States": 0.15,
         "Europe": 0.10,
         "Switzerland": 0.70,
         "Asia & EM": 0.05
