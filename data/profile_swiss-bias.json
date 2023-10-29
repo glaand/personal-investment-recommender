@@ -17,6 +17,7 @@
         "Basic Materials": 0.05,
         "Real Estate": 0.00,
         "Communication Services": 0.02,
-        "Utilities": 0.02
+        "Utilities": 0.02,
+        "Mixed": 0.00
     }
 }
