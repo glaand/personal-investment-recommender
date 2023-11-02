@@ -23,7 +23,7 @@
             <td>{{ item.name }}</td>
             <td>{{ item.isin }}</td>
             <td>{{ item.buy_price }}</td>
-            <td>{{ item.buy_price }}</td>
+            <td>{{ item.price }}</td>
             <td>{{ item.value }}</td>
           </tr>
         </tbody>

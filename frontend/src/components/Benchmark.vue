@@ -110,7 +110,7 @@
         });
         const datasets = [
             {
-                label: "Markt",
+                label: "Sektor",
                 data: marketValues,
                 backgroundColor: [
                     'lightblue', 
