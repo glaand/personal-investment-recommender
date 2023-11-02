@@ -3,7 +3,12 @@
     <v-expansion-panel-title hide-actions :color="color">{{ recommendation.name }}</v-expansion-panel-title>
     <v-expansion-panel-text>
       <p>Lorem Ipsum</p>
-      <v-row align="center" justify="center" class="mt-5">
+      <v-divider class="my-5"></v-divider>
+      <p><b>YTD:</b> 8.5%</p>
+      <p><b>P/E:</b> 8.5%</p>
+      <p><b>Dividends:</b> 12 CHF</p>
+      <v-divider class="my-5"></v-divider>
+      <v-row align="center" justify="center">
         <v-col cols="auto">
           <v-btn size="x-small" color="success" icon="mdi-check"></v-btn>
         </v-col>
