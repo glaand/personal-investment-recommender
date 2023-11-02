@@ -5,47 +5,36 @@
         <v-col>
           <v-expansion-panels variant="accordion">
             <v-expansion-panel-title hide-actions color="orange">Something Similar</v-expansion-panel-title>
-            <v-expansion-panel
-              v-for="(recommendation, i) in recommendations.something_similar"
-              :key="i"
+            <Recommendation 
+              v-for="(recommendation, i) in recommendations.something_similar" 
+              :key="i" 
+              :recommendation="recommendation"
               color="orange-lighten-3"
-              :title="recommendation.name"
-              :text="recommendation.description"
-            ></v-expansion-panel>
+            ></Recommendation>
           </v-expansion-panels>
         </v-col>
         <v-col>
           <v-expansion-panels variant="accordion">
             <v-expansion-panel-title hide-actions color="blue">Something Essential</v-expansion-panel-title>
-            <v-expansion-panel
-              v-for="(recommendation, i) in recommendations.something_essential"
-              :key="i"
+            <Recommendation 
+              v-for="(recommendation, i) in recommendations.something_essential" 
+              :key="i" 
+              :recommendation="recommendation"
               color="blue-lighten-3"
-              :title="recommendation.name"
-              :text="recommendation.description"
-            ></v-expansion-panel>
+            ></Recommendation>
           </v-expansion-panels>
         </v-col>
         <v-col>
           <v-expansion-panels variant="accordion">
             <v-expansion-panel-title hide-actions color="green">Something Special</v-expansion-panel-title>
-            <v-expansion-panel
-              v-for="(recommendation, i) in recommendations.something_special"
-              :key="i"
+            <Recommendation 
+              v-for="(recommendation, i) in recommendations.something_special" 
+              :key="i" 
+              :recommendation="recommendation"
               color="green-lighten-3"
-              :title="recommendation.name"
-              :text="recommendation.description"
-            ></v-expansion-panel>
+            ></Recommendation>
           </v-expansion-panels>
         </v-col>
-      </v-row>
-      <v-row align="center" justify="center">
-          <v-col cols="auto">
-            <v-btn color="primary" prepend-icon="mdi-face-agent">Mit Berater absprechen</v-btn>
-          </v-col>
-          <v-col cols="auto">
-            <v-btn color="primary" variant="outlined" prepend-icon="mdi-close">Schlechte empfehlungen...</v-btn>
-          </v-col>
       </v-row>
     </v-responsive>
   </v-container>
@@ -53,11 +42,13 @@
 
 <script lang="ts" setup>
   import { ref, onMounted } from 'vue';
+  import Recommendation from './Recommendation.vue';
+
   const recommendations = ref([]);
   const getRecommendations = async () => {
     let uri = process.env.VITE_BACKEND_URL;
     if (uri === undefined) {
-      uri = 'http://localhost:5000';
+      uri = 'http://localhost:8005';
     }
     const response = await fetch(`${uri}/recommendations/000001`);
     const data = await response.json();
