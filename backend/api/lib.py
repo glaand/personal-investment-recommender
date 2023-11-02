@@ -11,7 +11,7 @@ def get_investor(investor_id):
         "..",
         "..",
         "data",
-        "dummy_portfolio.json"
+        f"{investor_id}.json"
     ]
     data = json.load(open(os.path.join(*file_path)))
     return data

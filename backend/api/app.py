@@ -12,6 +12,17 @@ def home():
 @app.route("/investors/<investor_id>")
 def get_investor(investor_id):
     data = lib.get_investor(investor_id)
+    stocks_data = lib.get_stocks()
+    def mapper(x):
+        row = stocks_data[stocks_data["isin"] == x].iloc[0]
+        x = {}
+        x["isin"] = row["isin"]
+        x["name"] = row["longName"]
+        x["description"] = row["longBusinessSummary"]
+        return x
+
+    data["_bulk_risks"] = list(map(mapper, data["_bulk_risks"]))
+    data["_sell_stocks"] = list(map(mapper, data["_sell_stocks"]))
     return jsonify(data)
 
 @app.route("/recommendations/<investor_id>")
@@ -25,7 +36,7 @@ def get_recommendation(investor_id):
         return x
     
     # @todo, calculate something similar with cron job
-    portfolio = lib.get_investor(investor_id)["portfolio"]
+    portfolio = lib.get_investor(investor_id)["_portfolio"]
     data["something_similar"] = lib.calculate_something_similar(portfolio)
 
     data["something_similar"] = list(map(mapper, data["something_similar"]))
