@@ -3,18 +3,19 @@
     "_name": "Raphael",
     "_portfolio": [
         {
-            "isin": "CH0418792922",
-            "quantity": 10,
-            "name": "Sika AG",
-            "buy_price": 222.2,
-            "price": 222.2,
+            "isin": "CH0012005267",
+            "quantity": 100,
+            "name": "Novartis AG",
+            "buy_price": 87.38,
+            "price": 87.38,
             "currency": "CHF",
-            "value": 2222.0,
-            "sector": "Basic Materials",
-            "industry": "Specialty Chemicals",
+            "value": 8738.0,
+            "sector": "Healthcare",
+            "industry": "Drug Manufacturers - General",
             "country": "Switzerland",
+            "dividend": 0.0366,
             "region": "Switzerland",
-            "portfolio_percent": 0.0553
+            "portfolio_percent": 0.18
         },
         {
             "isin": "CH0025751329",
@@ -27,8 +28,9 @@
             "sector": "Technology",
             "industry": "Computer Hardware",
             "country": "Switzerland",
+            "dividend": 0.0164,
             "region": "Switzerland",
-            "portfolio_percent": 0.0968
+            "portfolio_percent": 0.0801
         },
         {
             "isin": "JP3732000009",
@@ -41,8 +43,9 @@
             "sector": "Communication Services",
             "industry": "Telecom Services",
             "country": "Japan",
+            "dividend": 0.0515,
             "region": "Asia & EM",
-            "portfolio_percent": 0.0502
+            "portfolio_percent": 0.0415
         },
         {
             "isin": "US0378331005",
@@ -55,8 +58,9 @@
             "sector": "Technology",
             "industry": "Consumer Electronics",
             "country": "United States",
+            "dividend": 0.0054,
             "region": "United States",
-            "portfolio_percent": 0.1204
+            "portfolio_percent": 0.0997
         },
         {
             "isin": "US6541061031",
@@ -69,8 +73,9 @@
             "sector": "Consumer Cyclical",
             "industry": "Footwear & Accessories",
             "country": "United States",
+            "dividend": 0.013200001,
             "region": "United States",
-            "portfolio_percent": 0.0344
+            "portfolio_percent": 0.0285
         },
         {
             "isin": "FR0000121485",
@@ -83,8 +88,9 @@
             "sector": "Consumer Cyclical",
             "industry": "Luxury Goods",
             "country": "France",
+            "dividend": 0.0342,
             "region": "Europe",
-            "portfolio_percent": 0.0973
+            "portfolio_percent": 0.0806
         },
         {
             "isin": "CH0011075394",
@@ -97,8 +103,9 @@
             "sector": "Financial Services",
             "industry": "Insurance - Diversified",
             "country": "Switzerland",
+            "dividend": 0.0557,
             "region": "Switzerland",
-            "portfolio_percent": 0.1073
+            "portfolio_percent": 0.0888
         },
         {
             "isin": "CH0012214059",
@@ -111,8 +118,9 @@
             "sector": "Basic Materials",
             "industry": "Building Materials",
             "country": "Switzerland",
+            "dividend": 0.0432,
             "region": "Switzerland",
-            "portfolio_percent": 0.0144
+            "portfolio_percent": 0.0119
         },
         {
             "isin": "CH0030170408",
@@ -125,8 +133,9 @@
             "sector": "Industrials",
             "industry": "Building Products & Equipment",
             "country": "Switzerland",
+            "dividend": 0.028399998,
             "region": "Switzerland",
-            "portfolio_percent": 0.1656
+            "portfolio_percent": 0.137
         },
         {
             "isin": "IT0003128367",
@@ -139,8 +148,9 @@
             "sector": "Utilities",
             "industry": "Utilities - Diversified",
             "country": "Italy",
+            "dividend": 0.069699995,
             "region": "Europe",
-            "portfolio_percent": 0.002
+            "portfolio_percent": 0.0017
         },
         {
             "isin": "FR0000120073",
@@ -153,8 +163,9 @@
             "sector": "Basic Materials",
             "industry": "Specialty Chemicals",
             "country": "France",
+            "dividend": 0.0185,
             "region": "Europe",
-            "portfolio_percent": 0.0379
+            "portfolio_percent": 0.0313
         },
         {
             "isin": "DE0005557508",
@@ -167,8 +178,9 @@
             "sector": "Communication Services",
             "industry": "Telecom Services",
             "country": "Germany",
+            "dividend": 0.0344,
             "region": "Europe",
-            "portfolio_percent": 0.0048
+            "portfolio_percent": 0.004
         },
         {
             "isin": "CH0038863350",
@@ -181,8 +193,9 @@
             "sector": "Consumer Defensive",
             "industry": "Packaged Foods",
             "country": "Switzerland",
+            "dividend": 0.0286,
             "region": "Switzerland",
-            "portfolio_percent": 0.0386
+            "portfolio_percent": 0.032
         },
         {
             "isin": "CH0018294154",
@@ -195,8 +208,9 @@
             "sector": "Real Estate",
             "industry": "Real Estate Services",
             "country": "Switzerland",
+            "dividend": 0.0344,
             "region": "Switzerland",
-            "portfolio_percent": 0.0411
+            "portfolio_percent": 0.0341
         },
         {
             "isin": "CH0012221716",
@@ -209,8 +223,9 @@
             "sector": "Industrials",
             "industry": "Electrical Equipment & Parts",
             "country": "Switzerland",
+            "dividend": 0.0257,
             "region": "Switzerland",
-            "portfolio_percent": 0.0081
+            "portfolio_percent": 0.0067
         },
         {
             "isin": "CH0012032048",
@@ -223,16 +238,31 @@
             "sector": "Healthcare",
             "industry": "Drug Manufacturers - General",
             "country": "Switzerland",
+            "dividend": 0.0376,
             "region": "Switzerland",
-            "portfolio_percent": 0.1257
+            "portfolio_percent": 0.104
+        },
+        {
+            "isin": "GB0009895292",
+            "quantity": 15,
+            "name": "AstraZeneca PLC",
+            "buy_price": 11270.0,
+            "price": 11270.0,
+            "currency": "GBp",
+            "value": 1851.6,
+            "sector": "Healthcare",
+            "industry": "Drug Manufacturers - General",
+            "country": "United Kingdom",
+            "dividend": 0.0208,
+            "region": "Europe",
+            "portfolio_percent": 0.0381
         }
     ],
     "_investor_type": "swiss-bias",
     "_portfolio_curreny": "CHF",
-    "_portfolio_value": 40173.54,
+    "_portfolio_value": 48541.14,
     "_bulk_risks": [
-        "US0378331005",
-        "CH0011075394",
+        "CH0012005267",
         "CH0030170408",
         "CH0012032048"
     ],
@@ -240,42 +270,42 @@
         "CH0025751329"
     ],
     "_market_allocation": {
-        "United States": 0.1548,
-        "Europe": 0.142,
-        "Switzerland": 0.6529,
-        "Asia & EM": 0.0502
+        "United States": 0.1282,
+        "Europe": 0.1557,
+        "Switzerland": 0.6746000000000001,
+        "Asia & EM": 0.0415
     },
     "_sector_allocation": {
-        "Financial Services": 0.1073,
-        "Technology": 0.2172,
-        "Industrials": 0.1737,
+        "Financial Services": 0.0888,
+        "Technology": 0.17980000000000002,
+        "Industrials": 0.14370000000000002,
         "Energy": 0.0,
-        "Healthcare": 0.1257,
-        "Consumer Defensive": 0.0386,
-        "Consumer Cyclical": 0.13169999999999998,
-        "Basic Materials": 0.1076,
-        "Real Estate": 0.0411,
-        "Communication Services": 0.055,
-        "Utilities": 0.002
+        "Healthcare": 0.3221,
+        "Consumer Defensive": 0.032,
+        "Consumer Cyclical": 0.1091,
+        "Basic Materials": 0.0432,
+        "Real Estate": 0.0341,
+        "Communication Services": 0.0455,
+        "Utilities": 0.0017
     },
     "_market_allocation_difference": {
-        "United States": 0.004799999999999999,
-        "Europe": 0.04199999999999998,
-        "Switzerland": -0.04709999999999992,
-        "Asia & EM": 0.0001999999999999988
+        "United States": -0.021799999999999986,
+        "Europe": 0.0557,
+        "Switzerland": -0.025399999999999867,
+        "Asia & EM": -0.0085
     },
     "_sector_allocation_difference": {
-        "Financial Services": -0.07269999999999999,
-        "Technology": 0.1372,
-        "Industrials": 0.0237,
+        "Financial Services": -0.09119999999999999,
+        "Technology": 0.09980000000000001,
+        "Industrials": -0.006299999999999972,
         "Energy": -0.02,
-        "Healthcare": -0.1243,
-        "Consumer Defensive": -0.1114,
-        "Consumer Cyclical": 0.05169999999999998,
-        "Basic Materials": 0.0576,
-        "Real Estate": 0.0411,
-        "Communication Services": 0.035,
-        "Utilities": -0.018000000000000002,
+        "Healthcare": 0.0721,
+        "Consumer Defensive": -0.118,
+        "Consumer Cyclical": 0.0291,
+        "Basic Materials": -0.0068000000000000005,
+        "Real Estate": 0.0341,
+        "Communication Services": 0.0255,
+        "Utilities": -0.0183,
         "Mixed": 0.0
     }
 }
