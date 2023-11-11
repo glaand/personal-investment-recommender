@@ -67,13 +67,12 @@ Fresenius,DE0005785604,Europe,Healthcare,most_preferred
 Heidelberg Materials,DE0006047004,Europe,Basic Materials,most_preferred
 Merck,DE0006599905,Europe,Healthcare,most_preferred
 AstraZeneca,GB0009895292,Europe,Healthcare,most_preferred
-Barcleys,GB0031348658,Europe,Financial Services,most_preferred
+Barclays,GB0031348658,Europe,Financial Services,most_preferred
 BP,GB0007980591,Europe,Energy,most_preferred
 Easyjet,GB00B7KR2P84,Europe,Industrials,most_preferred
 Glencore,JE00B4T3BW64,Europe,Basic Materials,most_preferred
 Reckitt Benckiser,GB00B24CGK77,Europe,Consumer Defensive,most_preferred
 Tesco,GB00BLGZ9862,Europe,Consumer Defensive,most_preferred
-Kering,FR0000121485,Europe,Consumer Cyclical,most_preferred
 Michelin,FR001400AJ45,Europe,Empty,most_preferred
 Norsk Hydro,NO0005052605,Europe,Basic Materials,most_preferred
 Microsoft,US5949181045,USA,Technology,most_preferred
@@ -129,3 +128,4 @@ Tencent,KYG875721634,Asia & EM,Communication Services,most_preferred
 Baidu,KYG070341048,Asia & EM,Communication Services,most_preferred
 Samsung,KR7005930003,Asia & EM,Technology,most_preferred
 Taiwan Semiconductor,TW0002330008,Asia & EM,Technology,most_preferred
+Emmi, CH0012829898,Switzerland,Consumer Defensive,most_preferred
