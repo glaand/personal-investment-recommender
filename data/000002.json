@@ -373,7 +373,7 @@
         "Utilities": -0.02,
         "Mixed": 0.0
     },
-    "_portfolio_beta": 0.79,
+    "_portfolio_beta": [0.79,"low"],
     "_high_beta_stocks": [
         "US67066G1040"
     ]
