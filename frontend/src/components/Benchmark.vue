@@ -91,27 +91,14 @@
     });
 
     const sectorAllocationData = computed(() => {
-        const labels = [
-            'Financial Services', 
-            'Technology', 
-            'Industrials', 
-            'Energy', 
-            'Healthcare', 
-            'Consumer Defensive', 
-            'Consumer Cyclical', 
-            'Basic Materials', 
-            'Real Estate', 
-            'Communication Services', 
-            'Utilities',
-            'Mixed'
-        ];
-        const marketValues = Object.values(props.sector).map((value) => {
+        const labels = Object.keys(props.sector);
+        const sectorValues = Object.values(props.sector).map((value) => {
             return parseFloat(value * 100);
         });
         const datasets = [
             {
                 label: "Sektor",
-                data: marketValues,
+                data: sectorValues,
                 backgroundColor: [
                     'lightblue', 
                     'silver', 

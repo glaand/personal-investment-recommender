@@ -9,6 +9,8 @@
                 :data="marketAllocationData"
             />
         </v-col>
+      </v-row>
+      <v-row>
         <v-col>
             <Pie
                 id="sector-allocation"
@@ -42,6 +44,7 @@
     const options = {
         responsive: true,
         maintainAspectRatio: false,
+        aspectRatio: 0.75,
         plugins: {
             datalabels: {
                 formatter: (value, ctx) => {
@@ -81,27 +84,14 @@
     });
 
     const sectorAllocationData = computed(() => {
-        const labels = [
-            'Financial Services', 
-            'Technology', 
-            'Industrials', 
-            'Energy', 
-            'Healthcare', 
-            'Consumer Defensive', 
-            'Consumer Cyclical', 
-            'Basic Materials', 
-            'Real Estate', 
-            'Communication Services', 
-            'Utilities',
-            'Mixed'
-        ];
-        const marketValues = Object.values(props.sector).map((value) => {
+        const labels = Object.keys(props.sector);
+        const sectorValues = Object.values(props.sector).map((value) => {
             return parseFloat(value * 100);
         });
         const datasets = [
             {
-                label: "Markt",
-                data: marketValues,
+                label: "Sektor",
+                data: sectorValues,
                 backgroundColor: [
                     'lightblue', 
                     'silver', 
