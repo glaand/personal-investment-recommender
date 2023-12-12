@@ -1,25 +1,43 @@
 <template>
   <v-responsive>
     <h3>Warnungen</h3>
-    <v-alert
-      v-for="sell_stock in sell_stocks"
-      :key="sell_stock.isin"
-      density="compact"
-      type="warning"
-      :title="sell_stock.isin"
-      :text="sell_stock.name + ': CIO Least Preferred'"
-      class="my-2"
-      variant="tonal"
-    ></v-alert>
-    <v-alert
-      v-for="bulk_stock in bulk_stocks"
-      :key="bulk_stock.isin"
-      density="compact"
-      type="warning"
-      :title="bulk_stock.isin"
-      :text="bulk_stock.name + ': Klumpenposition'"
-      class="my-2"
-    ></v-alert>
+    <h4>CIO Least Preferred</h4>
+    <v-row class="flex-wrap">
+      <v-col v-for="sell_stock in sell_stocks" :key="sell_stock.isin">
+        <v-alert
+          density="compact"
+          type="warning"
+          class="my-2 text"
+          variant="tonal"
+        >
+          <label class="title">{{ sell_stock.isin }}</label> <br> <label class="text text-no-wrap">{{ sell_stock.name }}</label>
+        </v-alert>
+      </v-col>
+    </v-row>
+    <h4>Klumpenpositionen</h4>
+    <v-row class="flex-wrap">
+      <v-col v-for="bulk_stock in bulk_stocks" :key="bulk_stock.isin">
+        <v-alert
+          density="compact"
+          type="warning"
+          class="my-2 text"
+        >
+          <label class="title">{{ bulk_stock.isin }}</label> <br> <label class="text text-no-wrap">{{ bulk_stock.name }}</label>
+        </v-alert>
+      </v-col>
+    </v-row>
+    <h4>Hohe Volatilität</h4>
+    <v-row class="flex-wrap">
+      <v-col v-for="bulk_stock in bulk_stocks" :key="bulk_stock.isin">
+        <v-alert
+          density="compact"
+          type="error"
+          class="my-2 text"
+        >
+          <label class="title">{{ bulk_stock.isin }}</label> <br> <label class="text text-no-wrap">{{ bulk_stock.name }}</label>
+        </v-alert>
+      </v-col>
+    </v-row>
   </v-responsive>
 </template>
   
@@ -38,3 +56,14 @@ const props = defineProps({
 });
 </script>
   
+<style scoped lang="scss">
+
+.title {
+  font-size: 0.8rem;
+}
+
+.text {
+  font-size: 0.7rem;
+}
+
+</style>

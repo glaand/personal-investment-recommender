@@ -1,7 +1,9 @@
 <template>
     <v-responsive>
-      <h3>Dein aktuelles Portfolio</h3>
-      <v-table density="compact">
+      <h3>
+        Dein aktuelles Portfolio <v-chip class="ml-1" size="x-small" variant="flat" color="red">Portfolio Risiko: Hoch (Beta: 1.3)</v-chip>
+      </h3>
+      <v-table density="compact" class="mt-2">
         <thead>
           <tr>
             <th class="text-left">Währung</th>
