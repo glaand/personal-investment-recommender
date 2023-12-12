@@ -1,57 +1,86 @@
 <template>
   <v-container v-if="portfolio">
     <h3 class="mt-5">Hallo {{ portfolio._name }}!</h3>
-    <p class="my-3">Auf Basis deines Portfolios wurden folgende Vorschläge für dich vorbereitet:</p>
-    <v-responsive class="align-center text-center mt-6">
-      <v-row>
-        <v-col>
-          <v-expansion-panels variant="accordion">
-            <v-expansion-panel-title hide-actions color="orange">Something Similar</v-expansion-panel-title>
-            <Recommendation 
-              v-for="(recommendation, i) in recommendations.something_similar" 
-              :key="i" 
-              :recommendation="recommendation"
-              color="orange-lighten-3"
-            ></Recommendation>
-          </v-expansion-panels>
-        </v-col>
-        <v-col>
-          <v-expansion-panels variant="accordion">
-            <v-expansion-panel-title hide-actions color="blue">Something Essential</v-expansion-panel-title>
-            <Recommendation 
-              v-for="(recommendation, i) in recommendations.something_essential" 
-              :key="i" 
-              :recommendation="recommendation"
-              color="blue-lighten-3"
-            ></Recommendation>
-          </v-expansion-panels>
-        </v-col>
-        <v-col>
-          <v-expansion-panels variant="accordion">
-            <v-expansion-panel-title hide-actions color="green">Something Special</v-expansion-panel-title>
-            <Recommendation 
-              v-for="(recommendation, i) in recommendations.something_special" 
-              :key="i" 
-              :recommendation="recommendation"
-              color="green-lighten-3"
-            ></Recommendation>
-          </v-expansion-panels>
-        </v-col>
-      </v-row>
-    </v-responsive>
-    <Warnings class="mt-15"
-      :sell_stocks="portfolio._sell_stocks" 
-      :bulk_stocks="portfolio._bulk_risks" 
-    />
-    <Portfolio class="mt-15" :portfolio="portfolio" />
-    <Allocation class="mt-15"
-      :market="portfolio._market_allocation" 
-      :sector="portfolio._sector_allocation" 
-    />
-    <Benchmark class="mt-15"
-      :market="portfolio._market_allocation_difference" 
-      :sector="portfolio._sector_allocation_difference" 
-    />
+
+    <v-tabs
+      v-model="tab"
+      color="deep-purple-accent-4"
+      align-tabs="center"
+    >
+      <v-tab value="recommendations"><v-icon class="mr-2">mdi-star</v-icon>Empfehlungen</v-tab>
+      <v-tab value="warnings"><v-icon class="mr-2">mdi-alert</v-icon>Warnungen</v-tab>
+      <v-tab value="portfolio"><v-icon class="mr-2">mdi-book-open-variant</v-icon>Portfolio</v-tab>
+      <v-tab value="allocation"><v-icon class="mr-2">mdi-chart-pie</v-icon>Allokation</v-tab>
+      <v-tab value="benchmark"><v-icon class="mr-2">mdi-chart-box-outline</v-icon>Benchmark</v-tab>
+    </v-tabs>
+
+    <v-window v-model="tab">
+      <v-window-item value="recommendations">
+        <p class="my-3">Auf Basis deines Portfolios wurden folgende Vorschläge für dich vorbereitet:</p>
+        <v-responsive class="align-center text-center mt-6">
+          <v-row class="pb-2">
+            <v-col>
+              <v-expansion-panels variant="accordion">
+                <v-expansion-panel-title hide-actions class="crystal-teal-header">Something Essential</v-expansion-panel-title>
+                <Recommendation 
+                  v-for="(recommendation, i) in recommendations.something_essential" 
+                  :key="i" 
+                  :recommendation="recommendation"
+                  class="crystal-teal-row"
+                ></Recommendation>
+              </v-expansion-panels>
+            </v-col>
+            <v-col>
+              <v-expansion-panels variant="accordion">
+                <v-expansion-panel-title hide-actions class="aquamarine-header">Something Similar α</v-expansion-panel-title>
+                <Recommendation 
+                  v-for="(recommendation, i) in recommendations.something_similar" 
+                  :key="i" 
+                  :recommendation="recommendation"
+                  class="aquamarine-row"
+                ></Recommendation>
+              </v-expansion-panels>
+            </v-col>
+            <v-col>
+              <v-expansion-panels variant="accordion">
+                <v-expansion-panel-title hide-actions class="caribbean-green-header">Something Similar β</v-expansion-panel-title>
+                <Recommendation 
+                  v-for="(recommendation, i) in recommendations.something_special" 
+                  :key="i" 
+                  :recommendation="recommendation"
+                  class="caribbean-green-row"
+                ></Recommendation>
+              </v-expansion-panels>
+            </v-col>
+          </v-row>
+        </v-responsive>
+      </v-window-item>
+
+      <v-window-item value="warnings">
+        <Warnings
+          :sell_stocks="portfolio._sell_stocks" 
+          :bulk_stocks="portfolio._bulk_risks" 
+        />
+      </v-window-item>
+
+      <v-window-item value="portfolio">
+        <Portfolio :portfolio="portfolio" />
+      </v-window-item>
+
+      <v-window-item value="allocation">
+        <Allocation
+          :market="portfolio._market_allocation" 
+          :sector="portfolio._sector_allocation" 
+        />
+      </v-window-item>
+
+      <v-window-item value="benchmark">
+        <Benchmark
+          :market="portfolio._market_allocation_difference" 
+          :sector="portfolio._sector_allocation_difference" 
+        />
+      </v-window-item>
+    </v-window>
   </v-container>
   <v-container v-else>
     <h3 class="mt-5">Profile not found...</h3>
@@ -92,6 +121,8 @@
     recommendations.value = data;
   };
 
+  const tab = ref('recommendations');
+
    // get url parameter id
     const id = route.params.id;
 
@@ -100,3 +131,32 @@
     getRecommendations(id);
   });
 </script>
+
+<style scoped lang="scss">
+  .crystal-teal-header {
+    background-color: #02647E;
+    color: white;
+  }
+  .crystal-teal-row {
+    background-color: lighten(#02647E, 70%);
+  }
+
+  .aquamarine-header {
+    background-color: #03F8C5;
+    color: white;
+  }
+
+  .aquamarine-row {
+    background-color: lighten(#03F8C5, 40%);
+  }
+
+  .caribbean-green-header {
+    background-color: #00CC9C;
+    color: white;
+  }
+
+  .caribbean-green-row {
+    background-color: lighten(#00CC9C, 50%);
+  }
+
+</style>
