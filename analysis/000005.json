@@ -356,5 +356,8 @@
         "Mixed": 0.0
     },
     "_portfolio_beta": 0.74,
-    "_high_beta_stocks": []
+    "_high_beta_stocks": [],
+    "_something_essential": [],
+    "_something_similar_alpha": [],
+    "_something_similar_beta": []
 }

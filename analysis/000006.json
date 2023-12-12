@@ -265,9 +265,9 @@
             "sector": "Industrials",
             "industry": "Airlines",
             "country": "United Kingdom",
-            "dividend": "Nan",
+            "dividend": "NaN",
             "beta": 2.506493,
-            "trailingPE": "Nan",
+            "trailingPE": "NaN",
             "52WeekChange": 0.18904114,
             "region": "Europe",
             "portfolio_percent": 0.088
@@ -357,7 +357,7 @@
             "country": "United States",
             "dividend": 0.0116,
             "beta": 1.648,
-            "trailingPE": "Nan",
+            "trailingPE": "NaN",
             "52WeekChange": 0.8371483,
             "region": "United States",
             "portfolio_percent": 0.0415
@@ -417,5 +417,8 @@
         "DE0006231004",
         "FR0000131104",
         "US0079031078"
-    ]
+    ],
+    "_something_essential": [],
+    "_something_similar_alpha": [],
+    "_something_similar_beta": []
 }

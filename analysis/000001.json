@@ -378,5 +378,8 @@
     "_portfolio_beta": 0.79,
     "_high_beta_stocks": [
         "US67066G1040"
-    ]
+    ],
+    "_something_essential": [],
+    "_something_similar_alpha": [],
+    "_something_similar_beta": []
 }
