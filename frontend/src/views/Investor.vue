@@ -8,10 +8,10 @@
       align-tabs="center"
     >
       <v-tab value="recommendations"><v-icon class="mr-2">mdi-star</v-icon>Empfehlungen</v-tab>
-      <v-tab value="warnings"><v-icon class="mr-2">mdi-alert</v-icon>Warnungen</v-tab>
       <v-tab value="portfolio"><v-icon class="mr-2">mdi-book-open-variant</v-icon>Portfolio</v-tab>
+      <v-tab value="warnings"><v-icon class="mr-2">mdi-alert</v-icon>Warnungen</v-tab>
       <v-tab value="allocation"><v-icon class="mr-2">mdi-chart-pie</v-icon>Allokation</v-tab>
-      <v-tab value="benchmark"><v-icon class="mr-2">mdi-chart-box-outline</v-icon>Benchmark</v-tab>
+      <v-tab value="benchmark"><v-icon class="mr-2">mdi-chart-box-outline</v-icon>Vergleich Benchmark</v-tab>
     </v-tabs>
 
     <v-window v-model="tab">
@@ -142,12 +142,12 @@
   }
 
   .aquamarine-header {
-    background-color: #03F8C5;
+    background-color: #16a587;
     color: white;
   }
 
   .aquamarine-row {
-    background-color: lighten(#03F8C5, 40%);
+    background-color: lighten(#16a587, 60%);
   }
 
   .caribbean-green-header {
