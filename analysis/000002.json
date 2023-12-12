@@ -1,6 +1,6 @@
 {
     "_id": "000002",
-    "_name": "Andre",
+    "_name": "Benny Banker",
     "_portfolio": [
         {
             "isin": "CH0038863350",
@@ -18,7 +18,7 @@
             "trailingPE": 28.47514,
             "52WeekChange": -0.04165119,
             "region": "Switzerland",
-            "portfolio_percent": 0.065
+            "portfolio_percent": 0.0676
         },
         {
             "isin": "CH0012005267",
@@ -36,7 +36,7 @@
             "trailingPE": 26.710768,
             "52WeekChange": 0.13805676,
             "region": "Switzerland",
-            "portfolio_percent": 0.0644
+            "portfolio_percent": 0.0671
         },
         {
             "isin": "CH0012032048",
@@ -54,7 +54,7 @@
             "trailingPE": 18.388039,
             "52WeekChange": -0.22546011,
             "region": "Switzerland",
-            "portfolio_percent": 0.0632
+            "portfolio_percent": 0.0658
         },
         {
             "isin": "CH0012221716",
@@ -72,7 +72,7 @@
             "trailingPE": 18.620481,
             "52WeekChange": 0.2204783,
             "region": "Switzerland",
-            "portfolio_percent": 0.0446
+            "portfolio_percent": 0.0464
         },
         {
             "isin": "CH0011075394",
@@ -90,7 +90,7 @@
             "trailingPE": 14.908399,
             "52WeekChange": 0.034805536,
             "region": "Switzerland",
-            "portfolio_percent": 0.0667
+            "portfolio_percent": 0.0695
         },
         {
             "isin": "CH0030170408",
@@ -108,7 +108,7 @@
             "trailingPE": 22.057632,
             "52WeekChange": 0.01627326,
             "region": "Switzerland",
-            "portfolio_percent": 0.0404
+            "portfolio_percent": 0.042
         },
         {
             "isin": "CH0008742519",
@@ -126,7 +126,7 @@
             "trailingPE": 17.020218,
             "52WeekChange": 0.19193685,
             "region": "Switzerland",
-            "portfolio_percent": 0.0396
+            "portfolio_percent": 0.0412
         },
         {
             "isin": "CH0012214059",
@@ -144,7 +144,7 @@
             "trailingPE": 10.034782,
             "52WeekChange": 0.3650943,
             "region": "Switzerland",
-            "portfolio_percent": 0.0422
+            "portfolio_percent": 0.0439
         },
         {
             "isin": "FR0000121014",
@@ -162,7 +162,7 @@
             "trailingPE": 21.064161,
             "52WeekChange": 0.06944001,
             "region": "Europe",
-            "portfolio_percent": 0.0349
+            "portfolio_percent": 0.0363
         },
         {
             "isin": "FR0000120321",
@@ -180,7 +180,7 @@
             "trailingPE": 35.387096,
             "52WeekChange": 0.1825397,
             "region": "Europe",
-            "portfolio_percent": 0.0371
+            "portfolio_percent": 0.0386
         },
         {
             "isin": "FR0000120271",
@@ -198,16 +198,16 @@
             "trailingPE": 8.747252,
             "52WeekChange": 0.20091236,
             "region": "Europe",
-            "portfolio_percent": 0.033
+            "portfolio_percent": 0.0343
         },
         {
             "isin": "US0378331005",
-            "quantity": 510,
+            "quantity": 210,
             "name": "Apple Inc.",
             "currency": "USD",
             "buy_price": 178.72,
             "price": 178.72,
-            "value": 82242.12,
+            "value": 33864.4,
             "sector": "Technology",
             "industry": "Consumer Electronics",
             "country": "United States",
@@ -216,16 +216,16 @@
             "trailingPE": 29.77311,
             "52WeekChange": 0.2314055,
             "region": "United States",
-            "portfolio_percent": 0.0749
+            "portfolio_percent": 0.0321
         },
         {
             "isin": "US5949181045",
-            "quantity": 275,
+            "quantity": 105,
             "name": "Microsoft Corporation",
             "currency": "USD",
             "buy_price": 332.64,
             "price": 332.64,
-            "value": 82538.79,
+            "value": 31514.81,
             "sector": "Technology",
             "industry": "Software - Infrastructure",
             "country": "United States",
@@ -234,16 +234,16 @@
             "trailingPE": 34.23299,
             "52WeekChange": 0.4041779,
             "region": "United States",
-            "portfolio_percent": 0.0752
+            "portfolio_percent": 0.0299
         },
         {
             "isin": "US92826C8394",
-            "quantity": 150,
+            "quantity": 370,
             "name": "Visa Inc.",
             "currency": "USD",
             "buy_price": 240.07,
             "price": 240.07,
-            "value": 32492.27,
+            "value": 80147.61,
             "sector": "Financial Services",
             "industry": "Credit Services",
             "country": "United States",
@@ -252,129 +252,130 @@
             "trailingPE": 30.570343,
             "52WeekChange": 0.29392195,
             "region": "United States",
-            "portfolio_percent": 0.0296
+            "portfolio_percent": 0.076
         },
         {
-            "isin": "US67066G1040",
-            "quantity": 170,
-            "name": "NVIDIA Corporation",
-            "currency": "USD",
-            "buy_price": 460.95,
-            "price": 460.95,
-            "value": 70705.58,
-            "sector": "Technology",
-            "industry": "Semiconductors",
-            "country": "United States",
-            "dividend": 0.0004,
-            "beta": 1.684,
-            "trailingPE": 106.387405,
-            "52WeekChange": 2.6460044,
-            "region": "United States",
-            "portfolio_percent": 0.0644
-        },
-        {
-            "isin": "CH0025751329",
-            "quantity": 1250,
-            "name": "Logitech International S.A.",
+            "isin": "CH0102484968",
+            "quantity": 1400,
+            "name": "Julius Bär Gruppe AG",
             "currency": "CHF",
-            "buy_price": 64.78,
-            "price": 64.78,
-            "value": 80975.0,
-            "sector": "Technology",
-            "industry": "Computer Hardware",
+            "buy_price": 57.82,
+            "price": 57.82,
+            "value": 80948.0,
+            "sector": "Financial Services",
+            "industry": "Asset Management",
             "country": "Switzerland",
-            "dividend": 0.0164,
-            "beta": 0.630634,
-            "trailingPE": 35.53591,
-            "52WeekChange": 0.47394764,
+            "dividend": 0.045,
+            "beta": 1.504965,
+            "trailingPE": 11.466934,
+            "52WeekChange": 0.28861153,
             "region": "Switzerland",
-            "portfolio_percent": 0.0737
+            "portfolio_percent": 0.0767
         },
         {
-            "isin": "DE0007164600",
-            "quantity": 700,
-            "name": "SAP SE",
+            "isin": "DE0008404005",
+            "quantity": 380,
+            "name": "Allianz SE",
             "currency": "EUR",
-            "buy_price": 123.32,
-            "price": 123.32,
-            "value": 82430.79,
-            "sector": "Technology",
-            "industry": "Software - Application",
+            "buy_price": 224.55,
+            "price": 224.55,
+            "value": 81480.66,
+            "sector": "Financial Services",
+            "industry": "Insurance - Diversified",
             "country": "Germany",
-            "dividend": 0.0166,
-            "beta": 0.975,
-            "trailingPE": 81.0,
-            "52WeekChange": 0.3831315,
+            "dividend": 0.0508,
+            "beta": 1.127,
+            "trailingPE": 10.218778,
+            "52WeekChange": 0.30264533,
             "region": "Europe",
-            "portfolio_percent": 0.0751
+            "portfolio_percent": 0.0772
         },
         {
-            "isin": "KYG875721634",
-            "quantity": 2400,
-            "name": "Tencent Holdings Limited",
-            "currency": "HKD",
-            "buy_price": 302.2,
-            "price": 302.2,
-            "value": 83624.78,
-            "sector": "Communication Services",
-            "industry": "Internet Content & Information",
-            "country": "China",
-            "dividend": 0.007900001,
-            "beta": 0.62223,
-            "trailingPE": 13.525699,
-            "52WeekChange": 0.23852456,
-            "region": "Asia & EM",
-            "portfolio_percent": 0.0761
+            "isin": "GB0031348658",
+            "quantity": 48000,
+            "name": "Barclays PLC",
+            "currency": "GBP",
+            "buy_price": 1.548,
+            "price": 1.548,
+            "value": 81385.17,
+            "sector": "Financial Services",
+            "industry": "Banks - Diversified",
+            "country": "United Kingdom",
+            "dividend": 0.0497,
+            "beta": 1.353,
+            "trailingPE": 4.384,
+            "52WeekChange": 0.07276511,
+            "region": "Europe",
+            "portfolio_percent": 0.0771
+        },
+        {
+            "isin": "FR0000131104",
+            "quantity": 1500,
+            "name": "BNP Paribas SA",
+            "currency": "EUR",
+            "buy_price": 57.68,
+            "price": 57.68,
+            "value": 82617.95,
+            "sector": "Financial Services",
+            "industry": "Banks - Regional",
+            "country": "France",
+            "dividend": 0.067600004,
+            "beta": 1.652,
+            "trailingPE": 8.207977,
+            "52WeekChange": 0.2562343,
+            "region": "Europe",
+            "portfolio_percent": 0.0783
         }
     ],
-    "_investor_type": "swiss-bias",
+    "_investor_type": "swiss-global",
+    "_sector_bias": "finance_bias",
+    "_investor_preference": "dividends",
     "_portfolio_curreny": "CHF",
-    "_portfolio_value": 1098211.2,
+    "_portfolio_value": 1055160.4700000002,
     "_bulk_risks": [],
-    "_sell_stocks": [
-        "CH0025751329"
-    ],
+    "_sell_stocks": [],
     "_market_allocation": {
-        "United States": 0.24410000000000004,
-        "Europe": 0.1801,
-        "Switzerland": 0.4998,
-        "Asia & EM": 0.0761
+        "United States": 0.138,
+        "Europe": 0.3418,
+        "Switzerland": 0.5202,
+        "Asia & EM": 0.0
     },
     "_sector_allocation": {
-        "Financial Services": 0.0963,
-        "Technology": 0.3633,
-        "Industrials": 0.08499999999999999,
-        "Energy": 0.033,
-        "Healthcare": 0.1276,
-        "Consumer Defensive": 0.1021,
-        "Consumer Cyclical": 0.0349,
-        "Basic Materials": 0.0422,
+        "Financial Services": 0.4548,
+        "Technology": 0.062,
+        "Industrials": 0.0884,
+        "Energy": 0.0343,
+        "Healthcare": 0.13290000000000002,
+        "Consumer Defensive": 0.10619999999999999,
+        "Consumer Cyclical": 0.0363,
+        "Basic Materials": 0.0439,
         "Real Estate": 0.0,
-        "Communication Services": 0.1157,
+        "Communication Services": 0.0412,
         "Utilities": 0.0
     },
     "_market_allocation_difference": {
-        "United States": 0.09410000000000004,
-        "Europe": 0.060100000000000015,
-        "Switzerland": -0.20019999999999993,
-        "Asia & EM": 0.0461
+        "United States": -0.21199999999999997,
+        "Europe": 0.14179999999999998,
+        "Switzerland": 0.12019999999999997,
+        "Asia & EM": -0.05
     },
     "_sector_allocation_difference": {
-        "Financial Services": -0.0837,
-        "Technology": 0.2833,
-        "Industrials": -0.065,
-        "Energy": 0.013000000000000001,
-        "Healthcare": -0.1124,
-        "Consumer Defensive": -0.0479,
-        "Consumer Cyclical": -0.0451,
-        "Basic Materials": -0.007800000000000001,
+        "Financial Services": 0.30479999999999996,
+        "Technology": -0.088,
+        "Industrials": -0.0116,
+        "Energy": -0.015700000000000006,
+        "Healthcare": -0.06709999999999999,
+        "Consumer Defensive": -0.043800000000000006,
+        "Consumer Cyclical": -0.0437,
+        "Basic Materials": -0.006100000000000001,
         "Real Estate": 0.0,
-        "Communication Services": 0.0857,
+        "Communication Services": -0.008800000000000002,
         "Utilities": -0.02,
         "Mixed": 0.0
     },
-    "_portfolio_beta": 0.79,
+    "_portfolio_beta": 0.91,
     "_high_beta_stocks": [
-        "US67066G1040"
+        "CH0102484968",
+        "FR0000131104"
     ]
 }
