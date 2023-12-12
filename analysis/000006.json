@@ -265,9 +265,9 @@
             "sector": "Industrials",
             "industry": "Airlines",
             "country": "United Kingdom",
-            "dividend": NaN,
+            "dividend": "Nan",
             "beta": 2.506493,
-            "trailingPE": NaN,
+            "trailingPE": "Nan",
             "52WeekChange": 0.18904114,
             "region": "Europe",
             "portfolio_percent": 0.088
@@ -357,7 +357,7 @@
             "country": "United States",
             "dividend": 0.0116,
             "beta": 1.648,
-            "trailingPE": NaN,
+            "trailingPE": "Nan",
             "52WeekChange": 0.8371483,
             "region": "United States",
             "portfolio_percent": 0.0415
