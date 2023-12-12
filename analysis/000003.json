@@ -357,7 +357,93 @@
     },
     "_portfolio_beta": 0.82,
     "_high_beta_stocks": [],
-    "_something_essential": [],
+    "_something_essential": [
+        {
+            "isin": "US7427181091",
+            "name": "The Procter & Gamble Company",
+            "currency": "USD",
+            "sector": "Consumer Defensive",
+            "industry": "Household & Personal Products",
+            "region": "United States",
+            "dividend": 0.0257,
+            "beta": 0.465,
+            "trailingPE": 24.831919,
+            "52WeekChange": 0.12889779,
+            "text": [
+                "Untergewicht United States",
+                "Untergewicht Consumer Defensive",
+                "Deine Präferenz: Tiefe Volatilität"
+            ]
+        },
+        {
+            "isin": "US9311421039",
+            "name": "Walmart Inc.",
+            "currency": "USD",
+            "sector": "Consumer Defensive",
+            "industry": "Discount Stores",
+            "region": "United States",
+            "dividend": 0.014099999,
+            "beta": 0.538,
+            "trailingPE": 31.042309,
+            "52WeekChange": 0.2067883,
+            "text": [
+                "Untergewicht United States",
+                "Untergewicht Consumer Defensive",
+                "Deine Präferenz: Tiefe Volatilität"
+            ]
+        },
+        {
+            "isin": "US03027X1000",
+            "name": "American Tower Corporation",
+            "currency": "USD",
+            "sector": "Real Estate",
+            "industry": "REIT - Specialty",
+            "region": "United States",
+            "dividend": 0.0388,
+            "beta": 0.650881,
+            "trailingPE": 81.41952,
+            "52WeekChange": -0.12607992,
+            "text": [
+                "Untergewicht United States",
+                "Untergewicht Real Estate",
+                "Deine Präferenz: Tiefe Volatilität"
+            ]
+        },
+        {
+            "isin": "JP3890350006",
+            "name": "Sumitomo Mitsui Financial Group, Inc.",
+            "currency": "JPY",
+            "sector": "Financial Services",
+            "industry": "Banks - Diversified",
+            "region": "Asia & EM",
+            "dividend": 0.0344,
+            "beta": 0.742655,
+            "trailingPE": 12.50486,
+            "52WeekChange": 0.78655255,
+            "text": [
+                "Untergewicht Asia & EM",
+                "Untergewicht Financial Services",
+                "Deine Präferenz: Tiefe Volatilität"
+            ]
+        },
+        {
+            "isin": "JP3893200000",
+            "name": "Mitsui Fudosan Co., Ltd.",
+            "currency": "JPY",
+            "sector": "Real Estate",
+            "industry": "Real Estate - Diversified",
+            "region": "Asia & EM",
+            "dividend": 0.0209,
+            "beta": 0.628486,
+            "trailingPE": 13.478172,
+            "52WeekChange": 0.13109124,
+            "text": [
+                "Untergewicht Asia & EM",
+                "Untergewicht Real Estate",
+                "Deine Präferenz: Tiefe Volatilität"
+            ]
+        }
+    ],
     "_something_similar_alpha": [],
     "_something_similar_beta": []
 }

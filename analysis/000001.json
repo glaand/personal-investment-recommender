@@ -379,7 +379,93 @@
     "_high_beta_stocks": [
         "US67066G1040"
     ],
-    "_something_essential": [],
+    "_something_essential": [
+        {
+            "isin": "CH0432492467",
+            "name": "Alcon Inc.",
+            "currency": "CHF",
+            "sector": "Healthcare",
+            "industry": "Medical Instruments & Supplies",
+            "region": "Switzerland",
+            "dividend": 0.0031,
+            "beta": 0.684096,
+            "trailingPE": 100.81818,
+            "52WeekChange": 0.1492182,
+            "text": [
+                "Untergewicht Switzerland",
+                "Untergewicht Healthcare",
+                "Deine Präferenz: Performance (jährlich)"
+            ]
+        },
+        {
+            "isin": "CH0012005267",
+            "name": "Novartis AG",
+            "currency": "CHF",
+            "sector": "Healthcare",
+            "industry": "Drug Manufacturers - General",
+            "region": "Switzerland",
+            "dividend": 0.0366,
+            "beta": 0.487394,
+            "trailingPE": 26.710768,
+            "52WeekChange": 0.13805676,
+            "text": [
+                "Untergewicht Switzerland",
+                "Untergewicht Healthcare",
+                "Deine Präferenz: Performance (jährlich)"
+            ]
+        },
+        {
+            "isin": "CH0360674466",
+            "name": "Galenica AG",
+            "currency": "CHF",
+            "sector": "Healthcare",
+            "industry": "Medical Distribution",
+            "region": "Switzerland",
+            "dividend": 0.0327,
+            "beta": 0.211993,
+            "trailingPE": 20.52795,
+            "52WeekChange": -0.048885703,
+            "text": [
+                "Untergewicht Switzerland",
+                "Untergewicht Healthcare",
+                "Deine Präferenz: Performance (jährlich)"
+            ]
+        },
+        {
+            "isin": "CH0244767585",
+            "name": "UBS Group AG",
+            "currency": "CHF",
+            "sector": "Financial Services",
+            "industry": "Banks - Diversified",
+            "region": "Switzerland",
+            "dividend": 0.0217,
+            "beta": 0.986631,
+            "trailingPE": 2.403001,
+            "52WeekChange": 0.51765895,
+            "text": [
+                "Untergewicht Switzerland",
+                "Untergewicht Financial Services",
+                "Deine Präferenz: Performance (jährlich)"
+            ]
+        },
+        {
+            "isin": "CH0311864901",
+            "name": "VAT Group AG",
+            "currency": "CHF",
+            "sector": "Industrials",
+            "industry": "Specialty Industrial Machinery",
+            "region": "Switzerland",
+            "dividend": 0.0184,
+            "beta": 1.289533,
+            "trailingPE": 41.358025,
+            "52WeekChange": 0.6184586,
+            "text": [
+                "Untergewicht Switzerland",
+                "Untergewicht Industrials",
+                "Deine Präferenz: Performance (jährlich)"
+            ]
+        }
+    ],
     "_something_similar_alpha": [],
     "_something_similar_beta": []
 }

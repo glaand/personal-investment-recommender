@@ -378,7 +378,93 @@
         "CH0102484968",
         "FR0000131104"
     ],
-    "_something_essential": [],
+    "_something_essential": [
+        {
+            "isin": "US17275R1023",
+            "name": "Cisco Systems, Inc.",
+            "currency": "USD",
+            "sector": "Technology",
+            "industry": "Communication Equipment",
+            "region": "United States",
+            "dividend": 0.028900001,
+            "beta": 0.963,
+            "trailingPE": 17.570032,
+            "52WeekChange": 0.28796566,
+            "text": [
+                "Untergewicht United States",
+                "Untergewicht Technology",
+                "Deine Präferenz: Hohe Dividende"
+            ]
+        },
+        {
+            "isin": "US68389X1054",
+            "name": "Oracle Corporation",
+            "currency": "USD",
+            "sector": "Technology",
+            "industry": "Software - Infrastructure",
+            "region": "United States",
+            "dividend": 0.0147,
+            "beta": 1.023,
+            "trailingPE": 32.356083,
+            "52WeekChange": 0.6446456,
+            "text": [
+                "Untergewicht United States",
+                "Untergewicht Technology",
+                "Deine Präferenz: Hohe Dividende"
+            ]
+        },
+        {
+            "isin": "US4581401001",
+            "name": "Intel Corporation",
+            "currency": "USD",
+            "sector": "Technology",
+            "industry": "Semiconductors",
+            "region": "United States",
+            "dividend": 0.0139,
+            "beta": 0.893,
+            "trailingPE": "NaN",
+            "52WeekChange": 0.38692307,
+            "text": [
+                "Untergewicht United States",
+                "Untergewicht Technology",
+                "Deine Präferenz: Hohe Dividende"
+            ]
+        },
+        {
+            "isin": "US00287Y1091",
+            "name": "AbbVie Inc.",
+            "currency": "USD",
+            "sector": "Healthcare",
+            "industry": "Drug Manufacturers - General",
+            "region": "United States",
+            "dividend": 0.0397,
+            "beta": 0.468,
+            "trailingPE": 30.69547,
+            "52WeekChange": 0.04226923,
+            "text": [
+                "Untergewicht United States",
+                "Untergewicht Healthcare",
+                "Deine Präferenz: Hohe Dividende"
+            ]
+        },
+        {
+            "isin": "US7427181091",
+            "name": "The Procter & Gamble Company",
+            "currency": "USD",
+            "sector": "Consumer Defensive",
+            "industry": "Household & Personal Products",
+            "region": "United States",
+            "dividend": 0.0257,
+            "beta": 0.465,
+            "trailingPE": 24.831919,
+            "52WeekChange": 0.12889779,
+            "text": [
+                "Untergewicht United States",
+                "Untergewicht Consumer Defensive",
+                "Deine Präferenz: Hohe Dividende"
+            ]
+        }
+    ],
     "_something_similar_alpha": [],
     "_something_similar_beta": []
 }

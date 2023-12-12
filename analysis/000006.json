@@ -418,7 +418,93 @@
         "FR0000131104",
         "US0079031078"
     ],
-    "_something_essential": [],
+    "_something_essential": [
+        {
+            "isin": "US7427181091",
+            "name": "The Procter & Gamble Company",
+            "currency": "USD",
+            "sector": "Consumer Defensive",
+            "industry": "Household & Personal Products",
+            "region": "United States",
+            "dividend": 0.0257,
+            "beta": 0.465,
+            "trailingPE": 24.831919,
+            "52WeekChange": 0.12889779,
+            "text": [
+                "Untergewicht United States",
+                "Untergewicht Consumer Defensive",
+                "Reduktion Potfoliorisiko"
+            ]
+        },
+        {
+            "isin": "US9311421039",
+            "name": "Walmart Inc.",
+            "currency": "USD",
+            "sector": "Consumer Defensive",
+            "industry": "Discount Stores",
+            "region": "United States",
+            "dividend": 0.014099999,
+            "beta": 0.538,
+            "trailingPE": 31.042309,
+            "52WeekChange": 0.2067883,
+            "text": [
+                "Untergewicht United States",
+                "Untergewicht Consumer Defensive",
+                "Reduktion Potfoliorisiko"
+            ]
+        },
+        {
+            "isin": "US03027X1000",
+            "name": "American Tower Corporation",
+            "currency": "USD",
+            "sector": "Real Estate",
+            "industry": "REIT - Specialty",
+            "region": "United States",
+            "dividend": 0.0388,
+            "beta": 0.650881,
+            "trailingPE": 81.41952,
+            "52WeekChange": -0.12607992,
+            "text": [
+                "Untergewicht United States",
+                "Untergewicht Real Estate",
+                "Reduktion Potfoliorisiko"
+            ]
+        },
+        {
+            "isin": "JP3633400001",
+            "name": "Toyota Motor Corporation",
+            "currency": "JPY",
+            "sector": "Consumer Cyclical",
+            "industry": "Auto Manufacturers",
+            "region": "Asia & EM",
+            "dividend": 0.0224,
+            "beta": 0.510695,
+            "trailingPE": 11.994428,
+            "52WeekChange": 0.33815825,
+            "text": [
+                "Untergewicht Asia & EM",
+                "Untergewicht Consumer Cyclical",
+                "Reduktion Potfoliorisiko"
+            ]
+        },
+        {
+            "isin": "JP3893200000",
+            "name": "Mitsui Fudosan Co., Ltd.",
+            "currency": "JPY",
+            "sector": "Real Estate",
+            "industry": "Real Estate - Diversified",
+            "region": "Asia & EM",
+            "dividend": 0.0209,
+            "beta": 0.628486,
+            "trailingPE": 13.478172,
+            "52WeekChange": 0.13109124,
+            "text": [
+                "Untergewicht Asia & EM",
+                "Untergewicht Real Estate",
+                "Reduktion Potfoliorisiko"
+            ]
+        }
+    ],
     "_something_similar_alpha": [],
     "_something_similar_beta": []
 }

@@ -357,7 +357,93 @@
     },
     "_portfolio_beta": 0.74,
     "_high_beta_stocks": [],
-    "_something_essential": [],
+    "_something_essential": [
+        {
+            "isin": "US67066G1040",
+            "name": "NVIDIA Corporation",
+            "currency": "USD",
+            "sector": "Technology",
+            "industry": "Semiconductors",
+            "region": "United States",
+            "dividend": 0.0004,
+            "beta": 1.684,
+            "trailingPE": 106.387405,
+            "52WeekChange": 2.6460044,
+            "text": [
+                "Untergewicht United States",
+                "Untergewicht Technology",
+                "Deine Präferenz: Performance (jährlich)"
+            ]
+        },
+        {
+            "isin": "US0382221051",
+            "name": "Applied Materials, Inc.",
+            "currency": "USD",
+            "sector": "Technology",
+            "industry": "Semiconductor Equipment & Materials",
+            "region": "United States",
+            "dividend": 0.009,
+            "beta": 1.581,
+            "trailingPE": 18.828497,
+            "52WeekChange": 0.84726894,
+            "text": [
+                "Untergewicht United States",
+                "Untergewicht Technology",
+                "Deine Präferenz: Performance (jährlich)"
+            ]
+        },
+        {
+            "isin": "US0079031078",
+            "name": "Advanced Micro Devices, Inc.",
+            "currency": "USD",
+            "sector": "Technology",
+            "industry": "Semiconductors",
+            "region": "United States",
+            "dividend": 0.0116,
+            "beta": 1.648,
+            "trailingPE": "NaN",
+            "52WeekChange": 0.8371483,
+            "text": [
+                "Untergewicht United States",
+                "Untergewicht Technology",
+                "Deine Präferenz: Performance (jährlich)"
+            ]
+        },
+        {
+            "isin": "US1011371077",
+            "name": "Boston Scientific Corporation",
+            "currency": "USD",
+            "sector": "Healthcare",
+            "industry": "Medical Devices",
+            "region": "United States",
+            "dividend": 0.0194,
+            "beta": 0.769,
+            "trailingPE": 84.1,
+            "52WeekChange": 0.2319336,
+            "text": [
+                "Untergewicht United States",
+                "Untergewicht Healthcare",
+                "Deine Präferenz: Performance (jährlich)"
+            ]
+        },
+        {
+            "isin": "US92826C8394",
+            "name": "Visa Inc.",
+            "currency": "USD",
+            "sector": "Financial Services",
+            "industry": "Credit Services",
+            "region": "United States",
+            "dividend": 0.0075,
+            "beta": 0.953,
+            "trailingPE": 30.570343,
+            "52WeekChange": 0.29392195,
+            "text": [
+                "Untergewicht United States",
+                "Untergewicht Financial Services",
+                "Deine Präferenz: Performance (jährlich)"
+            ]
+        }
+    ],
     "_something_similar_alpha": [],
     "_something_similar_beta": []
 }
