@@ -1,6 +1,6 @@
 <template>
   <v-container v-if="portfolio">
-    <h3 class="mt-5">Hallo {{ portfolio._name }}!</h3>
+    <h3>Hallo {{ portfolio._name }}!</h3>
 
     <v-tabs
       v-model="tab"
@@ -14,7 +14,7 @@
       <v-tab value="benchmark"><v-icon class="mr-2">mdi-chart-box-outline</v-icon>Vergleich Benchmark</v-tab>
     </v-tabs>
 
-    <v-window v-model="tab">
+    <v-window v-model="tab" class="mt-2">
       <v-window-item value="recommendations">
         <p class="my-3">Auf Basis deines Portfolios wurden folgende Vorschläge für dich vorbereitet:</p>
         <v-responsive class="align-center text-center mt-6">
