@@ -4,17 +4,16 @@ import os
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+from .raffi_class import dummy_info, build_dummy_investor
 
 def get_investor(investor_id):
-    file_path = [
-        os.path.dirname(__file__),
-        "..",
-        "..",
-        "data",
-        f"{investor_id}.json"
-    ]
-    data = json.load(open(os.path.join(*file_path)))
-    return data
+    name = dummy_info[investor_id][0]
+    investor_type = dummy_info[investor_id][1]
+    sector_bias = dummy_info[investor_id][2]
+    investor_preference = dummy_info[investor_id][3]
+    investor = build_dummy_investor(dummy_id=investor_id, dummy_name=name, dummy_investor_type=investor_type, 
+                         dummy_sector_bias=sector_bias, dummy_investor_preference=investor_preference)
+    return json.loads(investor.generate_json())
 
 def get_recommendation(investor_id):
     file_path = [

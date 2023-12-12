@@ -19,10 +19,13 @@
   const route = useRoute()
 
   const items = ref([
-    { id: '000001', name: 'Max Mustermann1 - 000001', investor_type: 'Swiss Bias' },
-    { id: '000002', name: 'Max Mustermann2 - 000002', investor_type: 'Swiss Global' },
-    { id: '000003', name: 'Max Mustermann3 - 000003', investor_type: 'Global' },
-  ])
+    { id: '000001', name: 'Lenny Linux - 000001', investor_type: 'swiss-bias' },
+    { id: '000002', name: 'Benny Banker - 000002', investor_type: 'swiss-global' },
+    { id: '000003', name: 'Louise Vuitton - 000003', investor_type: 'global' },
+    { id: '000004', name: 'Robby Robotic - 000004', investor_type: 'swiss-bias' },
+    { id: '000005', name: 'Freddy Ferrari - 000005', investor_type: 'swiss-global' },
+    { id: '000006', name: 'Ricky Risk - 000006', investor_type: 'global' },
+  ]);
 
   const login = (e: any) => {
     // get item by name

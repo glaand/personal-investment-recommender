@@ -25,5 +25,140 @@
                 "isin": "US7512121010"
             }
         ]
+    },
+    {
+        "investor_id": "000002",
+        "something_similar": [
+            {
+                "isin": "US7427181091"
+            },
+            {
+                "isin": "US7512121010"
+            }
+        ],
+        "something_essential": [
+            {
+                "isin": "CH0012221716"
+            },
+            {
+                "isin": "US7512121010"
+            }
+        ],
+        "something_special": [
+            {
+                "isin": "CH0012221716"
+            },
+            {
+                "isin": "US7512121010"
+            }
+        ]
+    },
+    {
+        "investor_id": "000003",
+        "something_similar": [
+            {
+                "isin": "US7427181091"
+            },
+            {
+                "isin": "US7512121010"
+            }
+        ],
+        "something_essential": [
+            {
+                "isin": "CH0012221716"
+            },
+            {
+                "isin": "US7512121010"
+            }
+        ],
+        "something_special": [
+            {
+                "isin": "CH0012221716"
+            },
+            {
+                "isin": "US7512121010"
+            }
+        ]
+    },
+    {
+        "investor_id": "000004",
+        "something_similar": [
+            {
+                "isin": "US7427181091"
+            },
+            {
+                "isin": "US7512121010"
+            }
+        ],
+        "something_essential": [
+            {
+                "isin": "CH0012221716"
+            },
+            {
+                "isin": "US7512121010"
+            }
+        ],
+        "something_special": [
+            {
+                "isin": "CH0012221716"
+            },
+            {
+                "isin": "US7512121010"
+            }
+        ]
+    },
+    {
+        "investor_id": "000005",
+        "something_similar": [
+            {
+                "isin": "US7427181091"
+            },
+            {
+                "isin": "US7512121010"
+            }
+        ],
+        "something_essential": [
+            {
+                "isin": "CH0012221716"
+            },
+            {
+                "isin": "US7512121010"
+            }
+        ],
+        "something_special": [
+            {
+                "isin": "CH0012221716"
+            },
+            {
+                "isin": "US7512121010"
+            }
+        ]
+    },
+    {
+        "investor_id": "000006",
+        "something_similar": [
+            {
+                "isin": "US7427181091"
+            },
+            {
+                "isin": "US7512121010"
+            }
+        ],
+        "something_essential": [
+            {
+                "isin": "CH0012221716"
+            },
+            {
+                "isin": "US7512121010"
+            }
+        ],
+        "something_special": [
+            {
+                "isin": "CH0012221716"
+            },
+            {
+                "isin": "US7512121010"
+            }
+        ]
     }
 ]

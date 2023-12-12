@@ -1,7 +1,9 @@
 <template>
     <v-responsive>
       <h3>
-        Dein aktuelles Portfolio <v-chip class="ml-1" size="small" variant="flat" color="red">Portfolio Risiko: Hoch (Beta: 1.3)</v-chip>
+        Dein aktuelles Portfolio 
+        <v-chip v-if="beta >= 1" class="ml-1" size="small" variant="flat" color="red">Portfolio Risiko: Hoch (Beta: {{ beta }})</v-chip>
+        <v-chip v-else-if="beta < 1" class="ml-1" size="small" variant="flat" color="green">Portfolio Risiko: Tief (Beta: {{ beta }})</v-chip>
       </h3>
       <v-table density="compact" class="mt-2">
         <thead>
@@ -39,6 +41,10 @@
     const props = defineProps({
       portfolio: {
         type: Object,
+        required: true,
+      },
+      beta: {
+        type: Number,
         required: true,
       },
     });

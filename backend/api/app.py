@@ -20,9 +20,13 @@ def get_investor(investor_id):
         x["name"] = row["longName"]
         x["description"] = row["longBusinessSummary"]
         return x
+    
+    print("BANANAS")
+    print(data["_bulk_risks"])
 
     data["_bulk_risks"] = list(map(mapper, data["_bulk_risks"]))
     data["_sell_stocks"] = list(map(mapper, data["_sell_stocks"]))
+    data["_high_beta_stocks"] = list(map(mapper, data["_high_beta_stocks"]))
     return jsonify(data)
 
 @app.route("/recommendations/<investor_id>")
