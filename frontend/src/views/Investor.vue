@@ -56,16 +56,16 @@
         </v-responsive>
       </v-window-item>
 
+      <v-window-item value="portfolio">
+        <Portfolio :portfolio="portfolio" :beta="portfolio._portfolio_beta" />
+      </v-window-item>
+
       <v-window-item value="warnings">
         <Warnings
           :sell_stocks="portfolio._sell_stocks" 
           :bulk_stocks="portfolio._bulk_risks" 
           :high_beta_stocks="portfolio._high_beta_stocks"
         />
-      </v-window-item>
-
-      <v-window-item value="portfolio">
-        <Portfolio :portfolio="portfolio" :beta="portfolio._portfolio_beta" />
       </v-window-item>
 
       <v-window-item value="allocation">
