@@ -22,9 +22,6 @@ def get_investor(investor_id):
         x["name"] = row["longName"]
         x["description"] = row["longBusinessSummary"]
         return x
-    
-    print("BANANAS")
-    print(data["_bulk_risks"])
 
     data["_bulk_risks"] = list(map(mapper, data["_bulk_risks"]))
     data["_sell_stocks"] = list(map(mapper, data["_sell_stocks"]))
@@ -55,7 +52,7 @@ def get_recommendation(investor_id):
     data["something_similar"] = lib.calculate_something_similar(portfolio)
     data["something_similar"] = list(map(mapper, data["something_similar"]))
     data["something_essential"] = list(map(mapper, investor["_something_essential"]))
-    data["something_special"] = list(map(mapper, data["something_special"]))
+    data["something_special"] = list(map(mapper, investor["_something_similar_beta"]))
     return jsonify(data)
 
 @app.route("/stocks/")
