@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P.I.R - Recommenders Engagement Metrics</title>
+    <!-- Add Bootstrap CSS link -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2>Recommenders Engagement Metrics</h2>
+    <hr>
+    <div class="row">
+        <!-- Box 1 -->
+        <div class="col-md-4">
+            <h3>Something Essential</h3>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Like Ratio </h5>
+                    <p class="card-text">Value: {{ essential_like_ratio }}</p>
+                    
+                    <h5 class="card-title">Dislike Ratio </h5>
+                    <p class="card-text">Value: {{ essential_dislike_ratio }}</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Box 2 -->
+        <div class="col-md-4">
+            <h3>Something Similar α</h3>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Like Ratio </h5>
+                    <p class="card-text">Value: {{ alpha_like_ratio }}</p>
+                    
+                    <h5 class="card-title">Dislike Ratio </h5>
+                    <p class="card-text">Value: {{ alpha_dislike_ratio }}</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Box 3 -->
+        <div class="col-md-4">
+            <h3>Something Similar β</h3>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Like Ratio </h5>
+                    <p class="card-text">Value: {{ beta_like_ratio }}</p>
+                    
+                    <h5 class="card-title">Dislike Ratio </h5>
+                    <p class="card-text">Value: {{ beta_dislike_ratio }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add Bootstrap JS and Popper.js script links -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
