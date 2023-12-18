@@ -89,7 +89,7 @@ def calculate_something_similar(portfolio):
     similar_stocks = similar_stocks.sort_values(ascending=False)
     similar_stocks = similar_stocks[~similar_stocks.index.duplicated(keep='first')]
 
-    similar_stocks = similar_stocks[:3]
+    similar_stocks = similar_stocks[:5]
     similar_stocks = similar_stocks.reset_index()
     similar_stocks = similar_stocks.to_dict(orient='records')
     similar_stocks = [{'isin': stock['isin']} for stock in similar_stocks]
