@@ -43,7 +43,10 @@ def get_recommendation(investor_id):
             x["trailingPE"] = 0
         else:
             x["trailingPE"] = row["trailingPE"]
-        x["52WeekChange"] = row["52WeekChange"]
+        if pd.isna(row["52WeekChange"]):
+            x["52WeekChange"] = 0
+        else:
+            x["52WeekChange"] = row["52WeekChange"]
         return x
     
     # @todo, calculate something similar with cron job
