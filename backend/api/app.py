@@ -1,6 +1,7 @@
-from flask import Flask, jsonify, url_for, make_response
+from flask import Flask, jsonify, url_for, make_response, request, jsonify
 from flask_cors import CORS
 import backend.api.lib as lib
+import requests
 
 app = Flask(__name__)
 CORS(app)
@@ -52,3 +53,11 @@ def get_recommendation(investor_id):
 def get_stocks():
     data = lib.get_stocks()
     return jsonify(data.to_dict(orient="records"))
+
+@app.route("/engage", methods=["POST"])
+def engage():
+    data = request.get_json()
+    print(data)
+    # send json request to http://34.41.133.178:8777/
+    r = requests.post("http://34.41.133.178:8777/engage", json=data)
+    return jsonify({"status": "success", "message": "Data saved successfully."})

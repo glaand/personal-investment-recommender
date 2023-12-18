@@ -11,10 +11,10 @@
       <v-divider class="my-5"></v-divider>
       <v-row v-if="hasRated == false" align="center" justify="center">
         <v-col cols="auto">
-          <v-btn @click="hasRated = true" size="x-small" color="success" icon="mdi-check"></v-btn>
+          <v-btn @click="chooseRating('like')" size="x-small" color="success" icon="mdi-check"></v-btn>
         </v-col>
         <v-col cols="auto">
-          <v-btn @click="hasRated = true" size="x-small" color="orange-darken-2" icon="mdi-close"></v-btn>
+          <v-btn @click="chooseRating('dislike')" size="x-small" color="orange-darken-2" icon="mdi-close"></v-btn>
         </v-col>
       </v-row>
       <p v-else>
@@ -32,6 +32,10 @@ const props = defineProps({
     type: Object,
     required: true,
   },
+  type: {
+    type: String,
+    required: true,
+  },
   key: {
     type: Number,
   },
@@ -43,9 +47,39 @@ const props = defineProps({
     type: String,
     required: true,
   },
+  user: {
+    type: String,
+    required: true,
+  },
 });
 
 const hasRated = ref(false);
+
+const chooseRating = async (action) => {
+  hasRated.value = true;
+  const ISIN = props.recommendation.isin;
+  const type = props.type;
+  // get current timestamp
+  const timestamp = Date.now();
+  const rating = {
+    "user": props.user,
+    "recommender": type,
+    "action": action,
+    "stock": ISIN,
+    "timestamp": timestamp,
+  };
+  let uri = process.env.VITE_BACKEND_URL;
+  if (uri === undefined) {
+    uri = 'http://localhost:8005';
+  }
+  const response = await fetch(`${uri}/engage`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(rating),
+  });
+};
 
 
 </script>
