@@ -24,7 +24,9 @@
                 <v-expansion-panel-title hide-actions class="crystal-teal-header">Something Essential</v-expansion-panel-title>
                 <Recommendation 
                   v-for="(recommendation, i) in recommendations.something_essential" 
-                  :key="i" 
+                  type="essential"
+                  :key="i"
+                  :user="portfolio._name"
                   :recommendation="recommendation"
                   class="crystal-teal-row"
                 ></Recommendation>
@@ -34,8 +36,10 @@
               <v-expansion-panels variant="accordion">
                 <v-expansion-panel-title hide-actions class="aquamarine-header">Something Similar α</v-expansion-panel-title>
                 <Recommendation 
-                  v-for="(recommendation, i) in recommendations.something_similar" 
+                  v-for="(recommendation, i) in recommendations.something_similar"
+                  type="alpha"
                   :key="i" 
+                  :user="portfolio._name"
                   :recommendation="recommendation"
                   class="aquamarine-row"
                 ></Recommendation>
@@ -45,8 +49,10 @@
               <v-expansion-panels variant="accordion">
                 <v-expansion-panel-title hide-actions class="caribbean-green-header">Something Similar β</v-expansion-panel-title>
                 <Recommendation 
-                  v-for="(recommendation, i) in recommendations.something_special" 
-                  :key="i" 
+                  v-for="(recommendation, i) in recommendations.something_special"
+                  type="beta"
+                  :key="i"
+                  :user="portfolio._name"
                   :recommendation="recommendation"
                   class="caribbean-green-row"
                 ></Recommendation>
@@ -56,16 +62,16 @@
         </v-responsive>
       </v-window-item>
 
+      <v-window-item value="portfolio">
+        <Portfolio :portfolio="portfolio" :beta="portfolio._portfolio_beta" />
+      </v-window-item>
+
       <v-window-item value="warnings">
         <Warnings
           :sell_stocks="portfolio._sell_stocks" 
           :bulk_stocks="portfolio._bulk_risks" 
           :high_beta_stocks="portfolio._high_beta_stocks"
         />
-      </v-window-item>
-
-      <v-window-item value="portfolio">
-        <Portfolio :portfolio="portfolio" :beta="portfolio._portfolio_beta" />
       </v-window-item>
 
       <v-window-item value="allocation">
