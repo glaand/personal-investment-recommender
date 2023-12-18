@@ -438,6 +438,7 @@
             "region": "Europe",
             "dividend": 0.0317,
             "beta": 1.15,
+            "trailingPE": 11.765554,
             "52WeekChange": 0.24060011,
             "similar_to_name": "Emerson Electric Co.",
             "text": [
@@ -454,6 +455,7 @@
             "region": "United States",
             "dividend": 0.009,
             "beta": 1.581,
+            "trailingPE": 18.828497,
             "52WeekChange": 0.84726894,
             "similar_to_name": "Emerson Electric Co.",
             "text": [
@@ -470,6 +472,7 @@
             "region": "Asia & EM",
             "dividend": 0.0209,
             "beta": 0.628486,
+            "trailingPE": 13.478172,
             "52WeekChange": 0.13109124,
             "similar_to_name": "Vinci SA",
             "text": [
@@ -486,6 +489,7 @@
             "region": "Europe",
             "dividend": 0.0207,
             "beta": 0.971,
+            "trailingPE": 20.904694,
             "52WeekChange": 0.2107445,
             "similar_to_name": "ABB Ltd",
             "text": [
@@ -502,6 +506,7 @@
             "region": "Europe",
             "dividend": 0.035,
             "beta": 1.367,
+            "trailingPE": 7.5081635,
             "52WeekChange": 0.6917465,
             "similar_to_name": "Geberit AG",
             "text": [

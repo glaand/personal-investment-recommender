@@ -517,6 +517,7 @@
             "region": "Europe",
             "dividend": 0.060100004,
             "beta": 1.338,
+            "trailingPE": 9.800347,
             "52WeekChange": 0.15431726,
             "similar_to_name": "Zurich Insurance Group AG",
             "text": [
@@ -533,6 +534,7 @@
             "region": "Europe",
             "dividend": 0.0508,
             "beta": 1.127,
+            "trailingPE": 10.218778,
             "52WeekChange": 0.30264533,
             "similar_to_name": "Zurich Insurance Group AG",
             "text": [
@@ -549,6 +551,7 @@
             "region": "Europe",
             "dividend": 0.0395,
             "beta": 0.595,
+            "trailingPE": 13.71,
             "52WeekChange": 0.3468293,
             "similar_to_name": "easyJet plc",
             "text": [
@@ -565,6 +568,7 @@
             "region": "United States",
             "dividend": 0.0257,
             "beta": 0.465,
+            "trailingPE": 24.831919,
             "52WeekChange": 0.12889779,
             "similar_to_name": "Nestlé S.A.",
             "text": [
@@ -581,6 +585,7 @@
             "region": "Europe",
             "dividend": 0.0454,
             "beta": 1.361,
+            "trailingPE": 6.1000004,
             "52WeekChange": 0.355855,
             "similar_to_name": "BNP Paribas SA",
             "text": [

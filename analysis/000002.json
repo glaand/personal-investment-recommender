@@ -477,6 +477,7 @@
             "region": "Europe",
             "dividend": 0.0556,
             "beta": 1.694,
+            "trailingPE": 7.7012343,
             "52WeekChange": 0.31984484,
             "similar_to_name": "BNP Paribas SA",
             "text": [
@@ -493,6 +494,7 @@
             "region": "Europe",
             "dividend": 0.0454,
             "beta": 1.361,
+            "trailingPE": 6.1000004,
             "52WeekChange": 0.355855,
             "similar_to_name": "BNP Paribas SA",
             "text": [
@@ -509,6 +511,7 @@
             "region": "Europe",
             "dividend": 0.060100004,
             "beta": 1.338,
+            "trailingPE": 9.800347,
             "52WeekChange": 0.15431726,
             "similar_to_name": "Allianz SE",
             "text": [
@@ -525,6 +528,7 @@
             "region": "Europe",
             "dividend": 0.0395,
             "beta": 0.595,
+            "trailingPE": 13.71,
             "52WeekChange": 0.3468293,
             "similar_to_name": "Barclays PLC",
             "text": [
@@ -541,6 +545,7 @@
             "region": "Switzerland",
             "dividend": 0.0344,
             "beta": 0.355233,
+            "trailingPE": 27.755102,
             "52WeekChange": 0.09433961,
             "similar_to_name": "Julius Bär Gruppe AG",
             "text": [
