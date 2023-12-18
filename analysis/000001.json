@@ -467,5 +467,86 @@
         }
     ],
     "_something_similar_alpha": [],
-    "_something_similar_beta": []
+    "_something_similar_beta": [
+        {
+            "isin": "US68389X1054",
+            "similar_to": "US5949181045",
+            "name": "Oracle Corporation",
+            "currency": "USD",
+            "sector": "Technology",
+            "industry": "Software - Infrastructure",
+            "region": "United States",
+            "dividend": 0.0147,
+            "beta": 1.023,
+            "52WeekChange": 0.6446456,
+            "similar_to_name": "Microsoft Corporation",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Microsoft Corporation"
+            ]
+        },
+        {
+            "isin": "US17275R1023",
+            "similar_to": "US5949181045",
+            "name": "Cisco Systems, Inc.",
+            "currency": "USD",
+            "sector": "Technology",
+            "industry": "Communication Equipment",
+            "region": "United States",
+            "dividend": 0.028900001,
+            "beta": 0.963,
+            "52WeekChange": 0.28796566,
+            "similar_to_name": "Microsoft Corporation",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Microsoft Corporation"
+            ]
+        },
+        {
+            "isin": "JP3732000009",
+            "similar_to": "KYG875721634",
+            "name": "SoftBank Corp.",
+            "currency": "JPY",
+            "sector": "Communication Services",
+            "industry": "Telecom Services",
+            "region": "Asia & EM",
+            "dividend": 0.0515,
+            "beta": 0.108687,
+            "52WeekChange": 0.15236127,
+            "similar_to_name": "Tencent Holdings Limited",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Tencent Holdings Limited"
+            ]
+        },
+        {
+            "isin": "US4581401001",
+            "similar_to": "DE0007164600",
+            "name": "Intel Corporation",
+            "currency": "USD",
+            "sector": "Technology",
+            "industry": "Semiconductors",
+            "region": "United States",
+            "dividend": 0.0139,
+            "beta": 0.893,
+            "52WeekChange": 0.38692307,
+            "similar_to_name": "SAP SE",
+            "text": [
+                "Ähnlichkeit zum Unternehmen SAP SE"
+            ]
+        },
+        {
+            "isin": "JP3435000009",
+            "similar_to": "US0378331005",
+            "name": "Sony Group Corporation",
+            "currency": "JPY",
+            "sector": "Technology",
+            "industry": "Consumer Electronics",
+            "region": "Asia & EM",
+            "dividend": 0.0062,
+            "beta": 0.912528,
+            "52WeekChange": 0.30596638,
+            "similar_to_name": "Apple Inc.",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Apple Inc."
+            ]
+        }
+    ]
 }

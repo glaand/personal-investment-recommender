@@ -466,5 +466,86 @@
         }
     ],
     "_something_similar_alpha": [],
-    "_something_similar_beta": []
+    "_something_similar_beta": [
+        {
+            "isin": "NL0011821202",
+            "similar_to": "FR0000131104",
+            "name": "ING Groep N.V.",
+            "currency": "EUR",
+            "sector": "Financial Services",
+            "industry": "Banks - Diversified",
+            "region": "Europe",
+            "dividend": 0.0556,
+            "beta": 1.694,
+            "52WeekChange": 0.31984484,
+            "similar_to_name": "BNP Paribas SA",
+            "text": [
+                "Ähnlichkeit zum Unternehmen BNP Paribas SA"
+            ]
+        },
+        {
+            "isin": "ES0113900J37",
+            "similar_to": "FR0000131104",
+            "name": "Banco Santander, S.A.",
+            "currency": "EUR",
+            "sector": "Financial Services",
+            "industry": "Banks - Diversified",
+            "region": "Europe",
+            "dividend": 0.0454,
+            "beta": 1.361,
+            "52WeekChange": 0.355855,
+            "similar_to_name": "BNP Paribas SA",
+            "text": [
+                "Ähnlichkeit zum Unternehmen BNP Paribas SA"
+            ]
+        },
+        {
+            "isin": "FR0000120628",
+            "similar_to": "DE0008404005",
+            "name": "AXA SA",
+            "currency": "EUR",
+            "sector": "Financial Services",
+            "industry": "Insurance - Diversified",
+            "region": "Europe",
+            "dividend": 0.060100004,
+            "beta": 1.338,
+            "52WeekChange": 0.15431726,
+            "similar_to_name": "Allianz SE",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Allianz SE"
+            ]
+        },
+        {
+            "isin": "GB00BLGZ9862",
+            "similar_to": "GB0031348658",
+            "name": "Tesco PLC",
+            "currency": "GBp",
+            "sector": "Consumer Defensive",
+            "industry": "Grocery Stores",
+            "region": "Europe",
+            "dividend": 0.0395,
+            "beta": 0.595,
+            "52WeekChange": 0.3468293,
+            "similar_to_name": "Barclays PLC",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Barclays PLC"
+            ]
+        },
+        {
+            "isin": "CH0018294154",
+            "similar_to": "CH0102484968",
+            "name": "PSP Swiss Property AG",
+            "currency": "CHF",
+            "sector": "Real Estate",
+            "industry": "Real Estate Services",
+            "region": "Switzerland",
+            "dividend": 0.0344,
+            "beta": 0.355233,
+            "52WeekChange": 0.09433961,
+            "similar_to_name": "Julius Bär Gruppe AG",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Julius Bär Gruppe AG"
+            ]
+        }
+    ]
 }

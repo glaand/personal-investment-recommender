@@ -445,5 +445,86 @@
         }
     ],
     "_something_similar_alpha": [],
-    "_something_similar_beta": []
+    "_something_similar_beta": [
+        {
+            "isin": "FR0000121667",
+            "similar_to": "FR0000121014",
+            "name": "EssilorLuxottica Société anonyme",
+            "currency": "EUR",
+            "sector": "Healthcare",
+            "industry": "Medical Instruments & Supplies",
+            "region": "Europe",
+            "dividend": 0.0196,
+            "beta": 0.922,
+            "52WeekChange": 0.046388745,
+            "similar_to_name": "LVMH Moët Hennessy - Louis Vuitton, Société Européenne",
+            "text": [
+                "Ähnlichkeit zum Unternehmen LVMH Moët Hennessy - Louis Vuitton, Société Européenne"
+            ]
+        },
+        {
+            "isin": "GB0009895292",
+            "similar_to": "FR0000121014",
+            "name": "AstraZeneca PLC",
+            "currency": "GBp",
+            "sector": "Healthcare",
+            "industry": "Drug Manufacturers - General",
+            "region": "Europe",
+            "dividend": 0.0208,
+            "beta": 0.162,
+            "52WeekChange": 0.14894485,
+            "similar_to_name": "LVMH Moët Hennessy - Louis Vuitton, Société Européenne",
+            "text": [
+                "Ähnlichkeit zum Unternehmen LVMH Moët Hennessy - Louis Vuitton, Société Européenne"
+            ]
+        },
+        {
+            "isin": "FR0000052292",
+            "similar_to": "US6541061031",
+            "name": "Hermès International Société en commandite par actions",
+            "currency": "EUR",
+            "sector": "Consumer Cyclical",
+            "industry": "Luxury Goods",
+            "region": "Europe",
+            "dividend": 0.0077,
+            "beta": 0.756,
+            "52WeekChange": 0.29425287,
+            "similar_to_name": "NIKE, Inc.",
+            "text": [
+                "Ähnlichkeit zum Unternehmen NIKE, Inc."
+            ]
+        },
+        {
+            "isin": "US9311421039",
+            "similar_to": "US7512121010",
+            "name": "Walmart Inc.",
+            "currency": "USD",
+            "sector": "Consumer Defensive",
+            "industry": "Discount Stores",
+            "region": "United States",
+            "dividend": 0.014099999,
+            "beta": 0.538,
+            "52WeekChange": 0.2067883,
+            "similar_to_name": "Ralph Lauren Corporation",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Ralph Lauren Corporation"
+            ]
+        },
+        {
+            "isin": "DE000A1EWWW0",
+            "similar_to": "ES0148396007",
+            "name": "adidas AG",
+            "currency": "EUR",
+            "sector": "Consumer Cyclical",
+            "industry": "Footwear & Accessories",
+            "region": "Europe",
+            "dividend": 0.0041,
+            "beta": 1.148,
+            "52WeekChange": 0.47787,
+            "similar_to_name": "Industria de Diseño Textil, S.A.",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Industria de Diseño Textil, S.A."
+            ]
+        }
+    ]
 }

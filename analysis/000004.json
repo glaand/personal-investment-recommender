@@ -427,5 +427,86 @@
         }
     ],
     "_something_similar_alpha": [],
-    "_something_similar_beta": []
+    "_something_similar_beta": [
+        {
+            "isin": "DE0007236101",
+            "similar_to": "US2910111044",
+            "name": "Siemens Aktiengesellschaft",
+            "currency": "EUR",
+            "sector": "Industrials",
+            "industry": "Specialty Industrial Machinery",
+            "region": "Europe",
+            "dividend": 0.0317,
+            "beta": 1.15,
+            "52WeekChange": 0.24060011,
+            "similar_to_name": "Emerson Electric Co.",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Emerson Electric Co."
+            ]
+        },
+        {
+            "isin": "US0382221051",
+            "similar_to": "US2910111044",
+            "name": "Applied Materials, Inc.",
+            "currency": "USD",
+            "sector": "Technology",
+            "industry": "Semiconductor Equipment & Materials",
+            "region": "United States",
+            "dividend": 0.009,
+            "beta": 1.581,
+            "52WeekChange": 0.84726894,
+            "similar_to_name": "Emerson Electric Co.",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Emerson Electric Co."
+            ]
+        },
+        {
+            "isin": "JP3893200000",
+            "similar_to": "FR0000125486",
+            "name": "Mitsui Fudosan Co., Ltd.",
+            "currency": "JPY",
+            "sector": "Real Estate",
+            "industry": "Real Estate - Diversified",
+            "region": "Asia & EM",
+            "dividend": 0.0209,
+            "beta": 0.628486,
+            "52WeekChange": 0.13109124,
+            "similar_to_name": "Vinci SA",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Vinci SA"
+            ]
+        },
+        {
+            "isin": "FR0000121972",
+            "similar_to": "CH0012221716",
+            "name": "Schneider Electric S.E.",
+            "currency": "EUR",
+            "sector": "Industrials",
+            "industry": "Specialty Industrial Machinery",
+            "region": "Europe",
+            "dividend": 0.0207,
+            "beta": 0.971,
+            "52WeekChange": 0.2107445,
+            "similar_to_name": "ABB Ltd",
+            "text": [
+                "Ähnlichkeit zum Unternehmen ABB Ltd"
+            ]
+        },
+        {
+            "isin": "DE0006047004",
+            "similar_to": "CH0030170408",
+            "name": "Heidelberg Materials AG",
+            "currency": "EUR",
+            "sector": "Basic Materials",
+            "industry": "Building Materials",
+            "region": "Europe",
+            "dividend": 0.035,
+            "beta": 1.367,
+            "52WeekChange": 0.6917465,
+            "similar_to_name": "Geberit AG",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Geberit AG"
+            ]
+        }
+    ]
 }

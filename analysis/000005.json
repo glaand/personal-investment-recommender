@@ -445,5 +445,86 @@
         }
     ],
     "_something_similar_alpha": [],
-    "_something_similar_beta": []
+    "_something_similar_beta": [
+        {
+            "isin": "FR001400AJ45",
+            "similar_to": "NL00150001Q9",
+            "name": "Compagnie Générale des Établissements Michelin Société en commandite par actions",
+            "currency": "EUR",
+            "sector": "NaN",
+            "industry": "NaN",
+            "region": "NaN",
+            "dividend": "NaN",
+            "beta": "NaN",
+            "52WeekChange": "NaN",
+            "similar_to_name": "Stellantis N.V.",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Stellantis N.V."
+            ]
+        },
+        {
+            "isin": "DE0007100000",
+            "similar_to": "NL00150001Q9",
+            "name": "Mercedes-Benz Group AG",
+            "currency": "EUR",
+            "sector": "Consumer Cyclical",
+            "industry": "Auto Manufacturers",
+            "region": "Europe",
+            "dividend": 0.0802,
+            "beta": 1.279,
+            "52WeekChange": 0.12876284,
+            "similar_to_name": "Stellantis N.V.",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Stellantis N.V."
+            ]
+        },
+        {
+            "isin": "FR0000052292",
+            "similar_to": "NL0011585146",
+            "name": "Hermès International Société en commandite par actions",
+            "currency": "EUR",
+            "sector": "Consumer Cyclical",
+            "industry": "Luxury Goods",
+            "region": "Europe",
+            "dividend": 0.0077,
+            "beta": 0.756,
+            "52WeekChange": 0.29425287,
+            "similar_to_name": "Ferrari N.V.",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Ferrari N.V."
+            ]
+        },
+        {
+            "isin": "JP3566800003",
+            "similar_to": "JP3633400001",
+            "name": "Central Japan Railway Company",
+            "currency": "JPY",
+            "sector": "Industrials",
+            "industry": "Railroads",
+            "region": "Asia & EM",
+            "dividend": 0.025799999,
+            "beta": 0.325027,
+            "52WeekChange": -0.07764238,
+            "similar_to_name": "Toyota Motor Corporation",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Toyota Motor Corporation"
+            ]
+        },
+        {
+            "isin": "FR0000121667",
+            "similar_to": "FR0000121014",
+            "name": "EssilorLuxottica Société anonyme",
+            "currency": "EUR",
+            "sector": "Healthcare",
+            "industry": "Medical Instruments & Supplies",
+            "region": "Europe",
+            "dividend": 0.0196,
+            "beta": 0.922,
+            "52WeekChange": 0.046388745,
+            "similar_to_name": "LVMH Moët Hennessy - Louis Vuitton, Société Européenne",
+            "text": [
+                "Ähnlichkeit zum Unternehmen LVMH Moët Hennessy - Louis Vuitton, Société Européenne"
+            ]
+        }
+    ]
 }

@@ -506,5 +506,86 @@
         }
     ],
     "_something_similar_alpha": [],
-    "_something_similar_beta": []
+    "_something_similar_beta": [
+        {
+            "isin": "FR0000120628",
+            "similar_to": "CH0011075394",
+            "name": "AXA SA",
+            "currency": "EUR",
+            "sector": "Financial Services",
+            "industry": "Insurance - Diversified",
+            "region": "Europe",
+            "dividend": 0.060100004,
+            "beta": 1.338,
+            "52WeekChange": 0.15431726,
+            "similar_to_name": "Zurich Insurance Group AG",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Zurich Insurance Group AG"
+            ]
+        },
+        {
+            "isin": "DE0008404005",
+            "similar_to": "CH0011075394",
+            "name": "Allianz SE",
+            "currency": "EUR",
+            "sector": "Financial Services",
+            "industry": "Insurance - Diversified",
+            "region": "Europe",
+            "dividend": 0.0508,
+            "beta": 1.127,
+            "52WeekChange": 0.30264533,
+            "similar_to_name": "Zurich Insurance Group AG",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Zurich Insurance Group AG"
+            ]
+        },
+        {
+            "isin": "GB00BLGZ9862",
+            "similar_to": "GB00B7KR2P84",
+            "name": "Tesco PLC",
+            "currency": "GBp",
+            "sector": "Consumer Defensive",
+            "industry": "Grocery Stores",
+            "region": "Europe",
+            "dividend": 0.0395,
+            "beta": 0.595,
+            "52WeekChange": 0.3468293,
+            "similar_to_name": "easyJet plc",
+            "text": [
+                "Ähnlichkeit zum Unternehmen easyJet plc"
+            ]
+        },
+        {
+            "isin": "US7427181091",
+            "similar_to": "CH0038863350",
+            "name": "The Procter & Gamble Company",
+            "currency": "USD",
+            "sector": "Consumer Defensive",
+            "industry": "Household & Personal Products",
+            "region": "United States",
+            "dividend": 0.0257,
+            "beta": 0.465,
+            "52WeekChange": 0.12889779,
+            "similar_to_name": "Nestlé S.A.",
+            "text": [
+                "Ähnlichkeit zum Unternehmen Nestlé S.A."
+            ]
+        },
+        {
+            "isin": "ES0113900J37",
+            "similar_to": "FR0000131104",
+            "name": "Banco Santander, S.A.",
+            "currency": "EUR",
+            "sector": "Financial Services",
+            "industry": "Banks - Diversified",
+            "region": "Europe",
+            "dividend": 0.0454,
+            "beta": 1.361,
+            "52WeekChange": 0.355855,
+            "similar_to_name": "BNP Paribas SA",
+            "text": [
+                "Ähnlichkeit zum Unternehmen BNP Paribas SA"
+            ]
+        }
+    ]
 }
