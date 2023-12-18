@@ -59,7 +59,7 @@ const props = defineProps({
 const hasRated = ref(false);
 const recommendationText = ref([]);
 
-if (props.type == 'essential') {
+if (props.type == 'essential' || props.type == 'beta') {
   recommendationText.value = props.recommendation.text;
 }
 
