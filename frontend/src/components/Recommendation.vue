@@ -2,12 +2,15 @@
   <v-expansion-panel>
     <v-expansion-panel-title hide-actions :color="color">{{ recommendation.name }}</v-expansion-panel-title>
     <v-expansion-panel-text>
-      <p>Lorem Ipsum</p>
-      <v-divider class="my-5"></v-divider>
-      <p><b>YTD:</b> 8.5%</p>
-      <p><b>P/E:</b> 8.5%</p>
-      <p><b>β:</b> -1.05</p>
-      <p><b>Dividends:</b> 12 CHF</p>
+      <div v-if="recommendationText.length > 0">
+        <p><b>Wir empfehlen diese Aktie weil:</b></p>
+        <p v-for="msg in recommendationText">{{ msg  }}</p>
+        <v-divider class="my-5"></v-divider>
+      </div>
+      <p><b>Jahresperformance:</b> {{ parseFloat(recommendation["52WeekChange"] * 100).toFixed(2) }}%</p>
+      <p><b>P/E:</b> {{ parseFloat(recommendation.trailingPE).toFixed(2) }}</p>
+      <p><b>β:</b> {{ parseFloat(recommendation.beta).toFixed(2) }}</p>
+      <p><b>Dividende:</b> {{ parseFloat(recommendation.dividend * 100).toFixed(2) }}%</p>
       <v-divider class="my-5"></v-divider>
       <v-row v-if="hasRated == false" align="center" justify="center">
         <v-col cols="auto">
@@ -54,6 +57,11 @@ const props = defineProps({
 });
 
 const hasRated = ref(false);
+const recommendationText = ref([]);
+
+if (props.type == 'essential') {
+  recommendationText.value = props.recommendation.text;
+}
 
 const chooseRating = async (action) => {
   hasRated.value = true;

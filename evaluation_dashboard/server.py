@@ -40,10 +40,16 @@ def home():
 
     essential_like_ratio = "N/A"
     essential_dislike_ratio = "N/A"
+    essential_count_like = "N/A"
+    essential_count_dislike = "N/A"
     alpha_like_ratio = "N/A"
     alpha_dislike_ratio = "N/A"
+    alpha_count_like = "N/A"
+    alpha_count_dislike = "N/A"
     beta_like_ratio = "N/A"
     beta_dislike_ratio = "N/A"
+    beta_count_like = "N/A"
+    beta_count_dislike = "N/A"
 
     if len(essential_df) > 0:
         essential_like_ratio = len(essential_df[essential_df['action'] == 'like']) / len(essential_df)
@@ -51,6 +57,8 @@ def home():
         # convert to percentage
         essential_like_ratio = "{:.2%}".format(essential_like_ratio)
         essential_dislike_ratio = "{:.2%}".format(essential_dislike_ratio)
+        essential_count_like = len(essential_df[essential_df['action'] == 'like'])
+        essential_count_dislike = len(essential_df[essential_df['action'] == 'dislike'])
     
     if len(alpha_df) > 0:
         alpha_like_ratio = len(alpha_df[alpha_df['action'] == 'like']) / len(alpha_df)
@@ -58,6 +66,8 @@ def home():
         # convert to percentage
         alpha_like_ratio = "{:.2%}".format(alpha_like_ratio)
         alpha_dislike_ratio = "{:.2%}".format(alpha_dislike_ratio)
+        alpha_count_like = len(alpha_df[alpha_df['action'] == 'like'])
+        alpha_count_dislike = len(alpha_df[alpha_df['action'] == 'dislike'])
 
     if len(beta_df) > 0:
         beta_like_ratio = len(beta_df[beta_df['action'] == 'like']) / len(beta_df)
@@ -65,15 +75,23 @@ def home():
         # convert to percentage
         beta_like_ratio = "{:.2%}".format(beta_like_ratio)
         beta_dislike_ratio = "{:.2%}".format(beta_dislike_ratio)
+        beta_count_like = len(beta_df[beta_df['action'] == 'like'])
+        beta_count_dislike = len(beta_df[beta_df['action'] == 'dislike'])
 
     return render_template(
         "index.html",
         essential_like_ratio=essential_like_ratio,
         essential_dislike_ratio=essential_dislike_ratio,
+        essential_count_like=essential_count_like,
+        essential_count_dislike=essential_count_dislike,
         alpha_like_ratio=alpha_like_ratio,
         alpha_dislike_ratio=alpha_dislike_ratio,
+        alpha_count_like=alpha_count_like,
+        alpha_count_dislike=alpha_count_dislike,
         beta_like_ratio=beta_like_ratio,
-        beta_dislike_ratio=beta_dislike_ratio
+        beta_dislike_ratio=beta_dislike_ratio,
+        beta_count_like=beta_count_like,
+        beta_count_dislike=beta_count_dislike
     )
 
 def save_to_csv(data):
