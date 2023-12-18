@@ -456,6 +456,7 @@
             "region": "Europe",
             "dividend": 0.0196,
             "beta": 0.922,
+            "trailingPE": 31.489443,
             "52WeekChange": 0.046388745,
             "similar_to_name": "LVMH Moët Hennessy - Louis Vuitton, Société Européenne",
             "text": [
@@ -472,6 +473,7 @@
             "region": "Europe",
             "dividend": 0.0208,
             "beta": 0.162,
+            "trailingPE": 33.578945,
             "52WeekChange": 0.14894485,
             "similar_to_name": "LVMH Moët Hennessy - Louis Vuitton, Société Européenne",
             "text": [
@@ -488,6 +490,7 @@
             "region": "Europe",
             "dividend": 0.0077,
             "beta": 0.756,
+            "trailingPE": 45.082317,
             "52WeekChange": 0.29425287,
             "similar_to_name": "NIKE, Inc.",
             "text": [
@@ -504,6 +507,7 @@
             "region": "United States",
             "dividend": 0.014099999,
             "beta": 0.538,
+            "trailingPE": 31.042309,
             "52WeekChange": 0.2067883,
             "similar_to_name": "Ralph Lauren Corporation",
             "text": [
@@ -520,6 +524,7 @@
             "region": "Europe",
             "dividend": 0.0041,
             "beta": 1.148,
+            "trailingPE": "NaN",
             "52WeekChange": 0.47787,
             "similar_to_name": "Industria de Diseño Textil, S.A.",
             "text": [

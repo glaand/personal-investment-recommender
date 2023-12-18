@@ -456,6 +456,7 @@
             "region": "NaN",
             "dividend": "NaN",
             "beta": "NaN",
+            "trailingPE": 2.8310547,
             "52WeekChange": "NaN",
             "similar_to_name": "Stellantis N.V.",
             "text": [
@@ -472,6 +473,7 @@
             "region": "Europe",
             "dividend": 0.0802,
             "beta": 1.279,
+            "trailingPE": 4.5065928,
             "52WeekChange": 0.12876284,
             "similar_to_name": "Stellantis N.V.",
             "text": [
@@ -488,6 +490,7 @@
             "region": "Europe",
             "dividend": 0.0077,
             "beta": 0.756,
+            "trailingPE": 45.082317,
             "52WeekChange": 0.29425287,
             "similar_to_name": "Ferrari N.V.",
             "text": [
@@ -504,6 +507,7 @@
             "region": "Asia & EM",
             "dividend": 0.025799999,
             "beta": 0.325027,
+            "trailingPE": 12.550517,
             "52WeekChange": -0.07764238,
             "similar_to_name": "Toyota Motor Corporation",
             "text": [
@@ -520,6 +524,7 @@
             "region": "Europe",
             "dividend": 0.0196,
             "beta": 0.922,
+            "trailingPE": 31.489443,
             "52WeekChange": 0.046388745,
             "similar_to_name": "LVMH Moët Hennessy - Louis Vuitton, Société Européenne",
             "text": [

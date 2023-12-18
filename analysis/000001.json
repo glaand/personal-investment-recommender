@@ -478,6 +478,7 @@
             "region": "United States",
             "dividend": 0.0147,
             "beta": 1.023,
+            "trailingPE": 32.356083,
             "52WeekChange": 0.6446456,
             "similar_to_name": "Microsoft Corporation",
             "text": [
@@ -494,6 +495,7 @@
             "region": "United States",
             "dividend": 0.028900001,
             "beta": 0.963,
+            "trailingPE": 17.570032,
             "52WeekChange": 0.28796566,
             "similar_to_name": "Microsoft Corporation",
             "text": [
@@ -510,6 +512,7 @@
             "region": "Asia & EM",
             "dividend": 0.0515,
             "beta": 0.108687,
+            "trailingPE": 14.617392,
             "52WeekChange": 0.15236127,
             "similar_to_name": "Tencent Holdings Limited",
             "text": [
@@ -526,6 +529,7 @@
             "region": "United States",
             "dividend": 0.0139,
             "beta": 0.893,
+            "trailingPE": "NaN",
             "52WeekChange": 0.38692307,
             "similar_to_name": "SAP SE",
             "text": [
@@ -542,6 +546,7 @@
             "region": "Asia & EM",
             "dividend": 0.0062,
             "beta": 0.912528,
+            "trailingPE": 17.713478,
             "52WeekChange": 0.30596638,
             "similar_to_name": "Apple Inc.",
             "text": [
