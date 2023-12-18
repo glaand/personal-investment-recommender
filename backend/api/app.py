@@ -36,17 +36,28 @@ def get_recommendation(investor_id):
         row = stocks_data[stocks_data["isin"] == x["isin"]].iloc[0]
         x["name"] = row["longName"]
         x["description"] = row["longBusinessSummary"]
-        x["beta"] = row["beta"]
-        x["dividend"] = row["dividendYield"]
+
+        if pd.isna(row["beta"]):
+            x["beta"] = 0
+        else:
+            x["beta"] = row["beta"]
+
+        if pd.isna(row["dividendYield"]):
+            x["dividend"] = 0
+        else:
+            x["dividend"] = row["dividendYield"]
+
         # check for NaN in trailingPE
         if pd.isna(row["trailingPE"]):
             x["trailingPE"] = 0
         else:
             x["trailingPE"] = row["trailingPE"]
+
         if pd.isna(row["52WeekChange"]):
             x["52WeekChange"] = 0
         else:
             x["52WeekChange"] = row["52WeekChange"]
+            
         return x
     
     # @todo, calculate something similar with cron job
