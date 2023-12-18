@@ -2,6 +2,7 @@ from flask import Flask, jsonify, url_for, make_response, request, jsonify
 from flask_cors import CORS
 import backend.api.lib as lib
 import requests
+import pandas as pd
 
 app = Flask(__name__)
 CORS(app)
@@ -38,14 +39,22 @@ def get_recommendation(investor_id):
         row = stocks_data[stocks_data["isin"] == x["isin"]].iloc[0]
         x["name"] = row["longName"]
         x["description"] = row["longBusinessSummary"]
+        x["beta"] = row["beta"]
+        x["dividend"] = row["dividendYield"]
+        # check for NaN in trailingPE
+        if pd.isna(row["trailingPE"]):
+            x["trailingPE"] = 0
+        else:
+            x["trailingPE"] = row["trailingPE"]
+        x["52WeekChange"] = row["52WeekChange"]
         return x
     
     # @todo, calculate something similar with cron job
-    portfolio = lib.get_investor(investor_id)["_portfolio"]
+    investor = lib.get_investor(investor_id)
+    portfolio = investor["_portfolio"]
     data["something_similar"] = lib.calculate_something_similar(portfolio)
-
     data["something_similar"] = list(map(mapper, data["something_similar"]))
-    data["something_essential"] = list(map(mapper, data["something_essential"]))
+    data["something_essential"] = list(map(mapper, investor["_something_essential"]))
     data["something_special"] = list(map(mapper, data["something_special"]))
     return jsonify(data)
 
