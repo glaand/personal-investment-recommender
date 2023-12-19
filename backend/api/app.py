@@ -35,7 +35,10 @@ def get_recommendation(investor_id):
     def mapper(x):
         row = stocks_data[stocks_data["isin"] == x["isin"]].iloc[0]
         x["name"] = row["longName"]
-        x["description"] = row["longBusinessSummary"]
+        if pd.isna(row["longBusinessSummary"]):
+            x["description"] = ""
+        else:
+            x["description"] = row["longBusinessSummary"]
 
         if pd.isna(row["beta"]):
             x["beta"] = 0
@@ -63,7 +66,7 @@ def get_recommendation(investor_id):
     # @todo, calculate something similar with cron job
     investor = lib.get_investor(investor_id)
     portfolio = investor["_portfolio"]
-    data["something_similar"] = lib.calculate_something_similar(portfolio)
+    data["something_similar"] = lib.calculate_something_similar(investor)
     data["something_similar"] = list(map(mapper, data["something_similar"]))
     data["something_essential"] = list(map(mapper, investor["_something_essential"]))
     data["something_special"] = list(map(mapper, investor["_something_similar_beta"]))

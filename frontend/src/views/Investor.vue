@@ -1,7 +1,6 @@
 <template>
   <v-container v-if="portfolio">
-    <h3>Hallo {{ portfolio._name }}!</h3>
-
+    <h3 class="text-center">Willkommen beim Personal Investment Recommender, {{ portfolio._name }}!</h3>
     <v-tabs
       v-model="tab"
       color="deep-purple-accent-4"
@@ -16,12 +15,14 @@
 
     <v-window v-model="tab" class="mt-2">
       <v-window-item value="recommendations">
-        <p class="my-3">Auf Basis deines Portfolios wurden folgende Vorschläge für dich vorbereitet:</p>
+        <p class="my-3">Basierend auf deinem Portfolio haben wir einen individuellen Vorschlag für dich vorbereitet.</p>
         <v-responsive class="align-center text-center mt-6">
           <v-row class="pb-2">
-            <v-col>
+            <v-col md="4" cols="12">
               <v-expansion-panels variant="accordion">
-                <v-expansion-panel-title hide-actions class="crystal-teal-header">Something Essential</v-expansion-panel-title>
+                <v-expansion-panel-title hide-actions class="crystal-teal-header">
+                  <h3>Something Essential</h3>Diversifikationsstrategien
+                </v-expansion-panel-title>
                 <Recommendation 
                   v-for="(recommendation, i) in recommendations.something_essential" 
                   type="essential"
@@ -31,10 +32,14 @@
                   class="crystal-teal-row"
                 ></Recommendation>
               </v-expansion-panels>
+              <v-card class="pa-2 text-left" variant="tonal" color="indigo">
+                Dieser Algorithmus setzt auf bewährte Diversifikationsstrategien. Wir analysieren die Markt- und Sektorallokation deines Portfolios und präsentieren dir Aktien, die deine Allokation sinnvoll ergänzen könnten. Dabei berücksichtigen wir auch deine persönlichen Vorlieben, die du in naher Zukunft direkt hier spezifizieren kannst.
+              </v-card>
             </v-col>
-            <v-col>
+            <v-col md="4" cols="12">
               <v-expansion-panels variant="accordion">
-                <v-expansion-panel-title hide-actions class="aquamarine-header">Something Similar α</v-expansion-panel-title>
+                <v-expansion-panel-title hide-actions class="aquamarine-header">
+                  <h3>Something Similar α</h3>Branchenverwandtschaft im Fokus</v-expansion-panel-title>
                 <Recommendation 
                   v-for="(recommendation, i) in recommendations.something_similar"
                   type="alpha"
@@ -44,10 +49,15 @@
                   class="aquamarine-row"
                 ></Recommendation>
               </v-expansion-panels>
+              <v-card class="pa-2 text-left" variant="tonal" color="green-darken-5">
+                Unser intelligenter Textalgorithmus analysiert die Branchenaffinität deiner Aktien. Er identifiziert Schlüsselbegriffe in den Sektoren und Branchen, schlägt dir dann gezielt ähnliche Unternehmen vor. So erhältst du passende Vorschläge basierend auf textuellen Ähnlichkeiten.
+              </v-card>
             </v-col>
-            <v-col>
+            <v-col md="4" cols="12">
               <v-expansion-panels variant="accordion">
-                <v-expansion-panel-title hide-actions class="caribbean-green-header">Something Similar β</v-expansion-panel-title>
+                <v-expansion-panel-title hide-actions class="caribbean-green-header">
+                  <h3>Something Similar β</h3> Modernste Textanalyse für Ähnlichkeiten
+                </v-expansion-panel-title>
                 <Recommendation 
                   v-for="(recommendation, i) in recommendations.something_special"
                   type="beta"
@@ -57,6 +67,9 @@
                   class="caribbean-green-row"
                 ></Recommendation>
               </v-expansion-panels>
+              <v-card class="pa-2 text-left" variant="tonal" color="green-darken-1">
+                Dieser innovative Ansatz berücksichtigt deine Anlagepräferenzen, indem er die Schwerpunkte innerhalb deines Portfolios identifiziert. Mithilfe fortschrittlicher Methoden aus dem Bereich des Natural Language Processing werden textuelle Ähnlichkeiten genutzt, um Unternehmen zu finden, die deinen Favoriten ähneln.
+              </v-card>
             </v-col>
           </v-row>
         </v-responsive>
@@ -164,6 +177,10 @@
 
   .caribbean-green-row {
     background-color: lighten(#00CC9C, 50%);
+  }
+
+  .v-expansion-panel-title {
+    font-size: 11px;
   }
 
 </style>
