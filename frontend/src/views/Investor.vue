@@ -72,6 +72,7 @@
               </v-card>
             </v-col>
           </v-row>
+          <p>Diese Darstellung dient ausschliesslich zu Demonstrationszwecken und stellt keine Anlageempfehlung dar. Sie sollte nicht als solche interpretiert werden.</p>
         </v-responsive>
       </v-window-item>
 
